@@ -1,0 +1,366 @@
+a:8:{s:6:"config";a:5:{s:10:"phpVersion";s:23:"7.1.15-0ubuntu0.17.10.1";s:10:"yiiVersion";s:5:"2.0.7";s:11:"application";a:4:{s:3:"yii";s:5:"2.0.7";s:4:"name";s:14:"My Application";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:23:"7.1.15-0ubuntu0.17.10.1";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:1;}s:10:"extensions";a:8:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:60:"/home/usuario/yii2/academico/vendor/yiisoft/yii2-swiftmailer";}}s:24:"yiisoft/yii2-codeception";a:3:{s:4:"name";s:24:"yiisoft/yii2-codeception";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:16:"@yii/codeception";s:60:"/home/usuario/yii2/academico/vendor/yiisoft/yii2-codeception";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:58:"/home/usuario/yii2/academico/vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:54:"/home/usuario/yii2/academico/vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:52:"/home/usuario/yii2/academico/vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:54:"/home/usuario/yii2/academico/vendor/yiisoft/yii2-faker";}}s:25:"kartik-v/yii2-krajee-base";a:3:{s:4:"name";s:25:"kartik-v/yii2-krajee-base";s:7:"version";s:7:"1.8.9.0";s:5:"alias";a:1:{s:12:"@kartik/base";s:61:"/home/usuario/yii2/academico/vendor/kartik-v/yii2-krajee-base";}}s:31:"kartik-v/yii2-widget-activeform";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-activeform";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/form";s:67:"/home/usuario/yii2/academico/vendor/kartik-v/yii2-widget-activeform";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:9:{s:4:"host";s:14:"localhost:8080";s:10:"user-agent";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0";s:6:"accept";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:15:"accept-language";s:14:"en-US,en;q=0.5";s:15:"accept-encoding";s:13:"gzip, deflate";s:7:"referer";s:138:"http://localhost:8080/notasalumnoasignatura/snna?NotasalumnoasignaturaSearch%5Bperiodo%5D=109&NotasalumnoasignaturaSearch%5Bcarrera%5D=016";s:6:"cookie";s:172:"_csrf=ac381ae4fa7ee91a5a8c1b0a84cd5222f5cb9a15c272ae5b9fc4778268255f80a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22791V9aZgDkocMRUoTyMl-ilKAjMG-FKt%22%3B%7D";s:10:"connection";s:10:"keep-alive";s:25:"upgrade-insecure-requests";s:1:"1";}s:15:"responseHeaders";a:2:{s:12:"X-Powered-By";s:27:"PHP/7.1.15-0ubuntu0.17.10.1";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";}s:5:"route";s:26:"notasalumnoasignatura/snna";s:6:"action";s:61:"app\controllers\NotasalumnoasignaturaController::actionSnna()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:0:{}s:6:"SERVER";a:25:{s:13:"DOCUMENT_ROOT";s:33:"/home/usuario/yii2/academico/web/";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:11:"REMOTE_PORT";s:5:"52098";s:15:"SERVER_SOFTWARE";s:46:"PHP 7.1.15-0ubuntu0.17.10.1 Development Server";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_PORT";s:4:"8080";s:11:"REQUEST_URI";s:117:"/notasalumnoasignatura/snna?NotasalumnoasignaturaSearch%5Bperiodo%5D=109&NotasalumnoasignaturaSearch%5Bcarrera%5D=220";s:14:"REQUEST_METHOD";s:3:"GET";s:11:"SCRIPT_NAME";s:10:"/index.php";s:15:"SCRIPT_FILENAME";s:42:"/home/usuario/yii2/academico/web/index.php";s:9:"PATH_INFO";s:27:"/notasalumnoasignatura/snna";s:8:"PHP_SELF";s:37:"/index.php/notasalumnoasignatura/snna";s:12:"QUERY_STRING";s:89:"NotasalumnoasignaturaSearch%5Bperiodo%5D=109&NotasalumnoasignaturaSearch%5Bcarrera%5D=220";s:9:"HTTP_HOST";s:14:"localhost:8080";s:15:"HTTP_USER_AGENT";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0";s:11:"HTTP_ACCEPT";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.5";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:12:"HTTP_REFERER";s:138:"http://localhost:8080/notasalumnoasignatura/snna?NotasalumnoasignaturaSearch%5Bperiodo%5D=109&NotasalumnoasignaturaSearch%5Bcarrera%5D=016";s:11:"HTTP_COOKIE";s:172:"_csrf=ac381ae4fa7ee91a5a8c1b0a84cd5222f5cb9a15c272ae5b9fc4778268255f80a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22791V9aZgDkocMRUoTyMl-ilKAjMG-FKt%22%3B%7D";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:18:"REQUEST_TIME_FLOAT";d:1527602233.801922;s:12:"REQUEST_TIME";i:1527602233;}s:3:"GET";a:1:{s:27:"NotasalumnoasignaturaSearch";a:2:{s:7:"periodo";s:3:"109";s:7:"carrera";s:3:"220";}}s:4:"POST";a:0:{}s:6:"COOKIE";a:1:{s:5:"_csrf";s:130:"ac381ae4fa7ee91a5a8c1b0a84cd5222f5cb9a15c272ae5b9fc4778268255f80a:2:{i:0;s:5:"_csrf";i:1;s:32:"791V9aZgDkocMRUoTyMl-ilKAjMG-FKt";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}s:3:"log";a:1:{s:8:"messages";a:28:{i:0;a:5:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1527602233.802295;i:4;a:0:{}}i:1;a:5:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1527602233.802312;i:4;a:0:{}}i:2;a:5:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1527602233.802644;i:4;a:0:{}}i:3;a:5:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1527602233.803043;i:4;a:0:{}}i:4;a:5:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1527602233.803108;i:4;a:0:{}}i:5;a:5:{i:0;s:59:"Request parsed with URL rule: <controller:\w+>/<action:\w+>";i:1;i:8;i:2;s:29:"yii\web\UrlRule::parseRequest";i:3;d:1527602233.803267;i:4;a:0:{}}i:6;a:5:{i:0;s:45:"Route requested: 'notasalumnoasignatura/snna'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1527602233.803278;i:4;a:0:{}}i:7;a:5:{i:0;s:40:"Route to run: notasalumnoasignatura/snna";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1527602233.803598;i:4;a:0:{}}i:8;a:5:{i:0;s:77:"Running action: app\controllers\NotasalumnoasignaturaController::actionSnna()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1527602233.803788;i:4;a:0:{}}i:9;a:5:{i:0;s:53:"SELECT * FROM `periodolectivo` WHERE `StatusPerLec`=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.804265;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:10;a:5:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=siad";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1527602233.804288;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:15;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `periodolectivo`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.805007;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:18;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'periodolectivo' AND kcu.table_name = 'periodolectivo'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.8064;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:21;a:5:{i:0;s:64:"SELECT * FROM `carrera` WHERE `StatusCarr`=1 ORDER BY `nombcarr`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.807148;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:24;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `carrera`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.80763;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:27;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'carrera' AND kcu.table_name = 'carrera'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.808993;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:30;a:5:{i:0;s:61:"SELECT * FROM `periodolectivo` ORDER BY `idper` DESC LIMIT 12";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.811055;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:385;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:33;a:5:{i:0;s:46:"SHOW FULL COLUMNS FROM `notasalumnoasignatura`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.812062;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:402;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:36;a:5:{i:0;s:629:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'notasalumnoasignatura' AND kcu.table_name = 'notasalumnoasignatura'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.813522;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:402;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:39;a:5:{i:0;s:731:" select count(*) from (
+				SELECT notasalumnoasignatura.CIInfPer
+				FROM notasalumnoasignatura
+                LEFT JOIN periodolectivo on periodolectivo.idper = notasalumnoasignatura.idPer
+                LEFT JOIN detalle_matricula on detalle_matricula.id = notasalumnoasignatura.iddetalle
+				LEFT JOIN curso_ofertado on curso_ofertado.id = detalle_matricula.idcurso
+				LEFT JOIN detalle_malla on detalle_malla.id = curso_ofertado.iddetallemalla
+				LEFT JOIN malla_carrera on malla_carrera.id = detalle_malla.idmalla
+				where malla_carrera.detalle like '%SNNA%' and
+				malla_carrera.idcarrera like '220' and notasalumnoasignatura.idPer = '109'  
+				GROUP BY malla_carrera.idcarrera, notasalumnoasignatura.CIInfPer) c
+				";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.814059;i:4;a:2:{i:0;a:5:{s:4:"file";s:67:"/home/usuario/yii2/academico/models/NotasalumnoasignaturaSearch.php";s:4:"line";i:445;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:405;s:8:"function";s:10:"searchsnna";s:5:"class";s:38:"app\models\NotasalumnoasignaturaSearch";s:4:"type";s:2:"->";}}}i:42;a:5:{i:0;s:85:"Failed to set unsafe attribute 'periodo' in 'app\models\NotasalumnoasignaturaSearch'.";i:1;i:8;i:2;s:33:"yii\base\Model::onUnsafeAttribute";i:3;d:1527602233.988974;i:4;a:2:{i:0;a:5:{s:4:"file";s:67:"/home/usuario/yii2/academico/models/NotasalumnoasignaturaSearch.php";s:4:"line";i:454;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:405;s:8:"function";s:10:"searchsnna";s:5:"class";s:38:"app\models\NotasalumnoasignaturaSearch";s:4:"type";s:2:"->";}}}i:43;a:5:{i:0;s:85:"Failed to set unsafe attribute 'carrera' in 'app\models\NotasalumnoasignaturaSearch'.";i:1;i:8;i:2;s:33:"yii\base\Model::onUnsafeAttribute";i:3;d:1527602233.988986;i:4;a:2:{i:0;a:5:{s:4:"file";s:67:"/home/usuario/yii2/academico/models/NotasalumnoasignaturaSearch.php";s:4:"line";i:454;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:405;s:8:"function";s:10:"searchsnna";s:5:"class";s:38:"app\models\NotasalumnoasignaturaSearch";s:4:"type";s:2:"->";}}}i:44;a:5:{i:0;s:89:"Rendering view file: /home/usuario/yii2/academico/views/notasalumnoasignatura/versnna.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1527602233.989285;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:410;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}i:45;a:5:{i:0;s:93:"Rendering view file: /home/usuario/yii2/academico/views/notasalumnoasignatura/_searchsnna.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1527602233.989367;i:4;a:2:{i:0;a:5:{s:4:"file";s:68:"/home/usuario/yii2/academico/views/notasalumnoasignatura/versnna.php";s:4:"line";i:19;s:8:"function";s:6:"render";s:5:"class";s:13:"yii\base\View";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:410;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}i:46;a:5:{i:0;s:52:"SELECT * FROM `periodolectivo` ORDER BY `idper` DESC";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.989637;i:4;a:3:{i:0;a:5:{s:4:"file";s:72:"/home/usuario/yii2/academico/views/notasalumnoasignatura/_searchsnna.php";s:4:"line";i:41;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:68:"/home/usuario/yii2/academico/views/notasalumnoasignatura/versnna.php";s:4:"line";i:19;s:8:"function";s:6:"render";s:5:"class";s:13:"yii\base\View";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:410;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}i:49;a:5:{i:0;s:190:"The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php";i:1;i:1;i:2;s:47:"yii\i18n\PhpMessageSource::loadFallbackMessages";i:3;d:1527602233.992426;i:4;a:3:{i:0;a:5:{s:4:"file";s:61:"/home/usuario/yii2/academico/models/Notasalumnoasignatura.php";s:4:"line";i:159;s:8:"function";s:1:"t";s:5:"class";s:11:"yii\BaseYii";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:72:"/home/usuario/yii2/academico/views/notasalumnoasignatura/_searchsnna.php";s:4:"line";i:44;s:8:"function";s:10:"__toString";s:5:"class";s:23:"yii\widgets\ActiveField";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:68:"/home/usuario/yii2/academico/views/notasalumnoasignatura/versnna.php";s:4:"line";i:19;s:8:"function";s:6:"render";s:5:"class";s:13:"yii\base\View";s:4:"type";s:2:"->";}}}i:50;a:5:{i:0;s:1704:"SELECT periodolectivo.DescPerLec as período, notasalumnoasignatura.idPer, malla_carrera.idcarrera, 
+				carrera.NombCarr as carrera, notasalumnoasignatura.CIInfPer as cédula,
+				concat(informacionpersonal.ApellInfPer, ' ', informacionpersonal.ApellMatInfPer, ' ', 
+				informacionpersonal.NombInfPer) as nombre,
+				notasalumnoasignatura.idAsig, notasalumnoasignatura.CalifFinal, notasalumnoasignatura.asistencia,
+				detalle_malla.peso, round(sum(notasalumnoasignatura.CalifFinal*detalle_malla.peso/100), 2) as sumaNota, 
+				round(sum(notasalumnoasignatura.asistencia*detalle_malla.peso/100), 0) as sumaAsistencia,
+				if( (round(sum(notasalumnoasignatura.CalifFinal*detalle_malla.peso/100), 2) >= 8 
+				 and round(sum(notasalumnoasignatura.asistencia*detalle_malla.peso/100), 0) >= 70 ), 
+				'APROBADO', 'REPROBADO' ) AS Estado, count(notasalumnoasignatura.idAsig) as contador
+				FROM notasalumnoasignatura
+                LEFT JOIN periodolectivo on periodolectivo.idper = notasalumnoasignatura.idPer
+                LEFT JOIN informacionpersonal on informacionpersonal.CIInfPer = notasalumnoasignatura.CIInfPer
+				LEFT JOIN detalle_matricula on detalle_matricula.id = notasalumnoasignatura.iddetalle
+				LEFT JOIN curso_ofertado on curso_ofertado.id = detalle_matricula.idcurso
+				LEFT JOIN detalle_malla on detalle_malla.id = curso_ofertado.iddetallemalla
+				LEFT JOIN malla_carrera on malla_carrera.id = detalle_malla.idmalla
+                LEFT JOIN carrera on carrera.idCarr = malla_carrera.idcarrera
+				where malla_carrera.detalle like '%SNNA%' and  malla_carrera.idcarrera like '220'
+				and notasalumnoasignatura.idPer = '109'
+				GROUP BY malla_carrera.idcarrera, nombre LIMIT 500";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.993533;i:4;a:2:{i:0;a:5:{s:4:"file";s:68:"/home/usuario/yii2/academico/views/notasalumnoasignatura/versnna.php";s:4:"line";i:80;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:410;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}i:53;a:5:{i:0;s:72:"Rendering view file: /home/usuario/yii2/academico/views/layouts/main.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1527602235.353397;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:410;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}}}s:9:"profiling";a:3:{s:6:"memory";i:2724952;s:4:"time";d:1.555548906326294;s:8:"messages";a:26:{i:11;a:5:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=siad";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1527602233.804297;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:12;a:5:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=siad";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1527602233.804715;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:13;a:5:{i:0;s:53:"SELECT * FROM `periodolectivo` WHERE `StatusPerLec`=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.80475;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:14;a:5:{i:0;s:53:"SELECT * FROM `periodolectivo` WHERE `StatusPerLec`=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.804913;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:16;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `periodolectivo`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.805028;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:17;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `periodolectivo`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.806053;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:19;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'periodolectivo' AND kcu.table_name = 'periodolectivo'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.806424;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:20;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'periodolectivo' AND kcu.table_name = 'periodolectivo'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.806869;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:22;a:5:{i:0;s:64:"SELECT * FROM `carrera` WHERE `StatusCarr`=1 ORDER BY `nombcarr`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.807172;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:23;a:5:{i:0;s:64:"SELECT * FROM `carrera` WHERE `StatusCarr`=1 ORDER BY `nombcarr`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.807581;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:25;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `carrera`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.807648;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `carrera`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.808682;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:28;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'carrera' AND kcu.table_name = 'carrera'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.809023;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'carrera' AND kcu.table_name = 'carrera'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.80968;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:31;a:5:{i:0;s:61:"SELECT * FROM `periodolectivo` ORDER BY `idper` DESC LIMIT 12";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.81108;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:385;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:32;a:5:{i:0;s:61:"SELECT * FROM `periodolectivo` ORDER BY `idper` DESC LIMIT 12";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.811602;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:385;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:34;a:5:{i:0;s:46:"SHOW FULL COLUMNS FROM `notasalumnoasignatura`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.812087;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:402;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:35;a:5:{i:0;s:46:"SHOW FULL COLUMNS FROM `notasalumnoasignatura`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.813165;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:402;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:37;a:5:{i:0;s:629:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'notasalumnoasignatura' AND kcu.table_name = 'notasalumnoasignatura'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.813543;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:402;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:38;a:5:{i:0;s:629:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'notasalumnoasignatura' AND kcu.table_name = 'notasalumnoasignatura'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.813989;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:402;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:40;a:5:{i:0;s:731:" select count(*) from (
+				SELECT notasalumnoasignatura.CIInfPer
+				FROM notasalumnoasignatura
+                LEFT JOIN periodolectivo on periodolectivo.idper = notasalumnoasignatura.idPer
+                LEFT JOIN detalle_matricula on detalle_matricula.id = notasalumnoasignatura.iddetalle
+				LEFT JOIN curso_ofertado on curso_ofertado.id = detalle_matricula.idcurso
+				LEFT JOIN detalle_malla on detalle_malla.id = curso_ofertado.iddetallemalla
+				LEFT JOIN malla_carrera on malla_carrera.id = detalle_malla.idmalla
+				where malla_carrera.detalle like '%SNNA%' and
+				malla_carrera.idcarrera like '220' and notasalumnoasignatura.idPer = '109'  
+				GROUP BY malla_carrera.idcarrera, notasalumnoasignatura.CIInfPer) c
+				";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.814078;i:4;a:2:{i:0;a:5:{s:4:"file";s:67:"/home/usuario/yii2/academico/models/NotasalumnoasignaturaSearch.php";s:4:"line";i:445;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:405;s:8:"function";s:10:"searchsnna";s:5:"class";s:38:"app\models\NotasalumnoasignaturaSearch";s:4:"type";s:2:"->";}}}i:41;a:5:{i:0;s:731:" select count(*) from (
+				SELECT notasalumnoasignatura.CIInfPer
+				FROM notasalumnoasignatura
+                LEFT JOIN periodolectivo on periodolectivo.idper = notasalumnoasignatura.idPer
+                LEFT JOIN detalle_matricula on detalle_matricula.id = notasalumnoasignatura.iddetalle
+				LEFT JOIN curso_ofertado on curso_ofertado.id = detalle_matricula.idcurso
+				LEFT JOIN detalle_malla on detalle_malla.id = curso_ofertado.iddetallemalla
+				LEFT JOIN malla_carrera on malla_carrera.id = detalle_malla.idmalla
+				where malla_carrera.detalle like '%SNNA%' and
+				malla_carrera.idcarrera like '220' and notasalumnoasignatura.idPer = '109'  
+				GROUP BY malla_carrera.idcarrera, notasalumnoasignatura.CIInfPer) c
+				";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.988597;i:4;a:2:{i:0;a:5:{s:4:"file";s:67:"/home/usuario/yii2/academico/models/NotasalumnoasignaturaSearch.php";s:4:"line";i:445;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:405;s:8:"function";s:10:"searchsnna";s:5:"class";s:38:"app\models\NotasalumnoasignaturaSearch";s:4:"type";s:2:"->";}}}i:47;a:5:{i:0;s:52:"SELECT * FROM `periodolectivo` ORDER BY `idper` DESC";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.98966;i:4;a:3:{i:0;a:5:{s:4:"file";s:72:"/home/usuario/yii2/academico/views/notasalumnoasignatura/_searchsnna.php";s:4:"line";i:41;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:68:"/home/usuario/yii2/academico/views/notasalumnoasignatura/versnna.php";s:4:"line";i:19;s:8:"function";s:6:"render";s:5:"class";s:13:"yii\base\View";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:410;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}i:48;a:5:{i:0;s:52:"SELECT * FROM `periodolectivo` ORDER BY `idper` DESC";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.990183;i:4;a:3:{i:0;a:5:{s:4:"file";s:72:"/home/usuario/yii2/academico/views/notasalumnoasignatura/_searchsnna.php";s:4:"line";i:41;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:68:"/home/usuario/yii2/academico/views/notasalumnoasignatura/versnna.php";s:4:"line";i:19;s:8:"function";s:6:"render";s:5:"class";s:13:"yii\base\View";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:410;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}i:51;a:5:{i:0;s:1704:"SELECT periodolectivo.DescPerLec as período, notasalumnoasignatura.idPer, malla_carrera.idcarrera, 
+				carrera.NombCarr as carrera, notasalumnoasignatura.CIInfPer as cédula,
+				concat(informacionpersonal.ApellInfPer, ' ', informacionpersonal.ApellMatInfPer, ' ', 
+				informacionpersonal.NombInfPer) as nombre,
+				notasalumnoasignatura.idAsig, notasalumnoasignatura.CalifFinal, notasalumnoasignatura.asistencia,
+				detalle_malla.peso, round(sum(notasalumnoasignatura.CalifFinal*detalle_malla.peso/100), 2) as sumaNota, 
+				round(sum(notasalumnoasignatura.asistencia*detalle_malla.peso/100), 0) as sumaAsistencia,
+				if( (round(sum(notasalumnoasignatura.CalifFinal*detalle_malla.peso/100), 2) >= 8 
+				 and round(sum(notasalumnoasignatura.asistencia*detalle_malla.peso/100), 0) >= 70 ), 
+				'APROBADO', 'REPROBADO' ) AS Estado, count(notasalumnoasignatura.idAsig) as contador
+				FROM notasalumnoasignatura
+                LEFT JOIN periodolectivo on periodolectivo.idper = notasalumnoasignatura.idPer
+                LEFT JOIN informacionpersonal on informacionpersonal.CIInfPer = notasalumnoasignatura.CIInfPer
+				LEFT JOIN detalle_matricula on detalle_matricula.id = notasalumnoasignatura.iddetalle
+				LEFT JOIN curso_ofertado on curso_ofertado.id = detalle_matricula.idcurso
+				LEFT JOIN detalle_malla on detalle_malla.id = curso_ofertado.iddetallemalla
+				LEFT JOIN malla_carrera on malla_carrera.id = detalle_malla.idmalla
+                LEFT JOIN carrera on carrera.idCarr = malla_carrera.idcarrera
+				where malla_carrera.detalle like '%SNNA%' and  malla_carrera.idcarrera like '220'
+				and notasalumnoasignatura.idPer = '109'
+				GROUP BY malla_carrera.idcarrera, nombre LIMIT 500";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.993562;i:4;a:2:{i:0;a:5:{s:4:"file";s:68:"/home/usuario/yii2/academico/views/notasalumnoasignatura/versnna.php";s:4:"line";i:80;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:410;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}i:52;a:5:{i:0;s:1704:"SELECT periodolectivo.DescPerLec as período, notasalumnoasignatura.idPer, malla_carrera.idcarrera, 
+				carrera.NombCarr as carrera, notasalumnoasignatura.CIInfPer as cédula,
+				concat(informacionpersonal.ApellInfPer, ' ', informacionpersonal.ApellMatInfPer, ' ', 
+				informacionpersonal.NombInfPer) as nombre,
+				notasalumnoasignatura.idAsig, notasalumnoasignatura.CalifFinal, notasalumnoasignatura.asistencia,
+				detalle_malla.peso, round(sum(notasalumnoasignatura.CalifFinal*detalle_malla.peso/100), 2) as sumaNota, 
+				round(sum(notasalumnoasignatura.asistencia*detalle_malla.peso/100), 0) as sumaAsistencia,
+				if( (round(sum(notasalumnoasignatura.CalifFinal*detalle_malla.peso/100), 2) >= 8 
+				 and round(sum(notasalumnoasignatura.asistencia*detalle_malla.peso/100), 0) >= 70 ), 
+				'APROBADO', 'REPROBADO' ) AS Estado, count(notasalumnoasignatura.idAsig) as contador
+				FROM notasalumnoasignatura
+                LEFT JOIN periodolectivo on periodolectivo.idper = notasalumnoasignatura.idPer
+                LEFT JOIN informacionpersonal on informacionpersonal.CIInfPer = notasalumnoasignatura.CIInfPer
+				LEFT JOIN detalle_matricula on detalle_matricula.id = notasalumnoasignatura.iddetalle
+				LEFT JOIN curso_ofertado on curso_ofertado.id = detalle_matricula.idcurso
+				LEFT JOIN detalle_malla on detalle_malla.id = curso_ofertado.iddetallemalla
+				LEFT JOIN malla_carrera on malla_carrera.id = detalle_malla.idmalla
+                LEFT JOIN carrera on carrera.idCarr = malla_carrera.idcarrera
+				where malla_carrera.detalle like '%SNNA%' and  malla_carrera.idcarrera like '220'
+				and notasalumnoasignatura.idPer = '109'
+				GROUP BY malla_carrera.idcarrera, nombre LIMIT 500";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602235.331867;i:4;a:2:{i:0;a:5:{s:4:"file";s:68:"/home/usuario/yii2/academico/views/notasalumnoasignatura/versnna.php";s:4:"line";i:80;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:410;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}}}s:2:"db";a:1:{s:8:"messages";a:24:{i:13;a:5:{i:0;s:53:"SELECT * FROM `periodolectivo` WHERE `StatusPerLec`=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.80475;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:14;a:5:{i:0;s:53:"SELECT * FROM `periodolectivo` WHERE `StatusPerLec`=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.804913;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:16;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `periodolectivo`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.805028;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:17;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `periodolectivo`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.806053;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:19;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'periodolectivo' AND kcu.table_name = 'periodolectivo'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.806424;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:20;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'periodolectivo' AND kcu.table_name = 'periodolectivo'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.806869;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:377;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:22;a:5:{i:0;s:64:"SELECT * FROM `carrera` WHERE `StatusCarr`=1 ORDER BY `nombcarr`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.807172;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:23;a:5:{i:0;s:64:"SELECT * FROM `carrera` WHERE `StatusCarr`=1 ORDER BY `nombcarr`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.807581;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:25;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `carrera`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.807648;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `carrera`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.808682;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:28;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'carrera' AND kcu.table_name = 'carrera'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.809023;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'carrera' AND kcu.table_name = 'carrera'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.80968;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:381;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:31;a:5:{i:0;s:61:"SELECT * FROM `periodolectivo` ORDER BY `idper` DESC LIMIT 12";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.81108;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:385;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:32;a:5:{i:0;s:61:"SELECT * FROM `periodolectivo` ORDER BY `idper` DESC LIMIT 12";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.811602;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:385;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:34;a:5:{i:0;s:46:"SHOW FULL COLUMNS FROM `notasalumnoasignatura`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.812087;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:402;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:35;a:5:{i:0;s:46:"SHOW FULL COLUMNS FROM `notasalumnoasignatura`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.813165;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:402;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:37;a:5:{i:0;s:629:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'notasalumnoasignatura' AND kcu.table_name = 'notasalumnoasignatura'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.813543;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:402;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:38;a:5:{i:0;s:629:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'notasalumnoasignatura' AND kcu.table_name = 'notasalumnoasignatura'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.813989;i:4;a:1:{i:0;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:402;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:40;a:5:{i:0;s:731:" select count(*) from (
+				SELECT notasalumnoasignatura.CIInfPer
+				FROM notasalumnoasignatura
+                LEFT JOIN periodolectivo on periodolectivo.idper = notasalumnoasignatura.idPer
+                LEFT JOIN detalle_matricula on detalle_matricula.id = notasalumnoasignatura.iddetalle
+				LEFT JOIN curso_ofertado on curso_ofertado.id = detalle_matricula.idcurso
+				LEFT JOIN detalle_malla on detalle_malla.id = curso_ofertado.iddetallemalla
+				LEFT JOIN malla_carrera on malla_carrera.id = detalle_malla.idmalla
+				where malla_carrera.detalle like '%SNNA%' and
+				malla_carrera.idcarrera like '220' and notasalumnoasignatura.idPer = '109'  
+				GROUP BY malla_carrera.idcarrera, notasalumnoasignatura.CIInfPer) c
+				";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.814078;i:4;a:2:{i:0;a:5:{s:4:"file";s:67:"/home/usuario/yii2/academico/models/NotasalumnoasignaturaSearch.php";s:4:"line";i:445;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:405;s:8:"function";s:10:"searchsnna";s:5:"class";s:38:"app\models\NotasalumnoasignaturaSearch";s:4:"type";s:2:"->";}}}i:41;a:5:{i:0;s:731:" select count(*) from (
+				SELECT notasalumnoasignatura.CIInfPer
+				FROM notasalumnoasignatura
+                LEFT JOIN periodolectivo on periodolectivo.idper = notasalumnoasignatura.idPer
+                LEFT JOIN detalle_matricula on detalle_matricula.id = notasalumnoasignatura.iddetalle
+				LEFT JOIN curso_ofertado on curso_ofertado.id = detalle_matricula.idcurso
+				LEFT JOIN detalle_malla on detalle_malla.id = curso_ofertado.iddetallemalla
+				LEFT JOIN malla_carrera on malla_carrera.id = detalle_malla.idmalla
+				where malla_carrera.detalle like '%SNNA%' and
+				malla_carrera.idcarrera like '220' and notasalumnoasignatura.idPer = '109'  
+				GROUP BY malla_carrera.idcarrera, notasalumnoasignatura.CIInfPer) c
+				";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.988597;i:4;a:2:{i:0;a:5:{s:4:"file";s:67:"/home/usuario/yii2/academico/models/NotasalumnoasignaturaSearch.php";s:4:"line";i:445;s:8:"function";s:11:"queryScalar";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:405;s:8:"function";s:10:"searchsnna";s:5:"class";s:38:"app\models\NotasalumnoasignaturaSearch";s:4:"type";s:2:"->";}}}i:47;a:5:{i:0;s:52:"SELECT * FROM `periodolectivo` ORDER BY `idper` DESC";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.98966;i:4;a:3:{i:0;a:5:{s:4:"file";s:72:"/home/usuario/yii2/academico/views/notasalumnoasignatura/_searchsnna.php";s:4:"line";i:41;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:68:"/home/usuario/yii2/academico/views/notasalumnoasignatura/versnna.php";s:4:"line";i:19;s:8:"function";s:6:"render";s:5:"class";s:13:"yii\base\View";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:410;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}i:48;a:5:{i:0;s:52:"SELECT * FROM `periodolectivo` ORDER BY `idper` DESC";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.990183;i:4;a:3:{i:0;a:5:{s:4:"file";s:72:"/home/usuario/yii2/academico/views/notasalumnoasignatura/_searchsnna.php";s:4:"line";i:41;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:68:"/home/usuario/yii2/academico/views/notasalumnoasignatura/versnna.php";s:4:"line";i:19;s:8:"function";s:6:"render";s:5:"class";s:13:"yii\base\View";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:410;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}i:51;a:5:{i:0;s:1704:"SELECT periodolectivo.DescPerLec as período, notasalumnoasignatura.idPer, malla_carrera.idcarrera, 
+				carrera.NombCarr as carrera, notasalumnoasignatura.CIInfPer as cédula,
+				concat(informacionpersonal.ApellInfPer, ' ', informacionpersonal.ApellMatInfPer, ' ', 
+				informacionpersonal.NombInfPer) as nombre,
+				notasalumnoasignatura.idAsig, notasalumnoasignatura.CalifFinal, notasalumnoasignatura.asistencia,
+				detalle_malla.peso, round(sum(notasalumnoasignatura.CalifFinal*detalle_malla.peso/100), 2) as sumaNota, 
+				round(sum(notasalumnoasignatura.asistencia*detalle_malla.peso/100), 0) as sumaAsistencia,
+				if( (round(sum(notasalumnoasignatura.CalifFinal*detalle_malla.peso/100), 2) >= 8 
+				 and round(sum(notasalumnoasignatura.asistencia*detalle_malla.peso/100), 0) >= 70 ), 
+				'APROBADO', 'REPROBADO' ) AS Estado, count(notasalumnoasignatura.idAsig) as contador
+				FROM notasalumnoasignatura
+                LEFT JOIN periodolectivo on periodolectivo.idper = notasalumnoasignatura.idPer
+                LEFT JOIN informacionpersonal on informacionpersonal.CIInfPer = notasalumnoasignatura.CIInfPer
+				LEFT JOIN detalle_matricula on detalle_matricula.id = notasalumnoasignatura.iddetalle
+				LEFT JOIN curso_ofertado on curso_ofertado.id = detalle_matricula.idcurso
+				LEFT JOIN detalle_malla on detalle_malla.id = curso_ofertado.iddetallemalla
+				LEFT JOIN malla_carrera on malla_carrera.id = detalle_malla.idmalla
+                LEFT JOIN carrera on carrera.idCarr = malla_carrera.idcarrera
+				where malla_carrera.detalle like '%SNNA%' and  malla_carrera.idcarrera like '220'
+				and notasalumnoasignatura.idPer = '109'
+				GROUP BY malla_carrera.idcarrera, nombre LIMIT 500";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527602233.993562;i:4;a:2:{i:0;a:5:{s:4:"file";s:68:"/home/usuario/yii2/academico/views/notasalumnoasignatura/versnna.php";s:4:"line";i:80;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:410;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}i:52;a:5:{i:0;s:1704:"SELECT periodolectivo.DescPerLec as período, notasalumnoasignatura.idPer, malla_carrera.idcarrera, 
+				carrera.NombCarr as carrera, notasalumnoasignatura.CIInfPer as cédula,
+				concat(informacionpersonal.ApellInfPer, ' ', informacionpersonal.ApellMatInfPer, ' ', 
+				informacionpersonal.NombInfPer) as nombre,
+				notasalumnoasignatura.idAsig, notasalumnoasignatura.CalifFinal, notasalumnoasignatura.asistencia,
+				detalle_malla.peso, round(sum(notasalumnoasignatura.CalifFinal*detalle_malla.peso/100), 2) as sumaNota, 
+				round(sum(notasalumnoasignatura.asistencia*detalle_malla.peso/100), 0) as sumaAsistencia,
+				if( (round(sum(notasalumnoasignatura.CalifFinal*detalle_malla.peso/100), 2) >= 8 
+				 and round(sum(notasalumnoasignatura.asistencia*detalle_malla.peso/100), 0) >= 70 ), 
+				'APROBADO', 'REPROBADO' ) AS Estado, count(notasalumnoasignatura.idAsig) as contador
+				FROM notasalumnoasignatura
+                LEFT JOIN periodolectivo on periodolectivo.idper = notasalumnoasignatura.idPer
+                LEFT JOIN informacionpersonal on informacionpersonal.CIInfPer = notasalumnoasignatura.CIInfPer
+				LEFT JOIN detalle_matricula on detalle_matricula.id = notasalumnoasignatura.iddetalle
+				LEFT JOIN curso_ofertado on curso_ofertado.id = detalle_matricula.idcurso
+				LEFT JOIN detalle_malla on detalle_malla.id = curso_ofertado.iddetallemalla
+				LEFT JOIN malla_carrera on malla_carrera.id = detalle_malla.idmalla
+                LEFT JOIN carrera on carrera.idCarr = malla_carrera.idcarrera
+				where malla_carrera.detalle like '%SNNA%' and  malla_carrera.idcarrera like '220'
+				and notasalumnoasignatura.idPer = '109'
+				GROUP BY malla_carrera.idcarrera, nombre LIMIT 500";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527602235.331867;i:4;a:2:{i:0;a:5:{s:4:"file";s:68:"/home/usuario/yii2/academico/views/notasalumnoasignatura/versnna.php";s:4:"line";i:80;s:8:"function";s:6:"widget";s:5:"class";s:15:"yii\base\Widget";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:76:"/home/usuario/yii2/academico/controllers/NotasalumnoasignaturaController.php";s:4:"line";i:410;s:8:"function";s:6:"render";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}}}}s:6:"assets";a:8:{s:27:"yii\widgets\ActiveFormAsset";a:9:{s:10:"sourcePath";s:55:"/home/usuario/yii2/academico/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.activeForm.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:48:"/home/usuario/yii2/academico/web/assets/86cb7c08";s:7:"baseUrl";s:16:"/assets/86cb7c08";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:16:"yii\web\YiiAsset";a:9:{s:10:"sourcePath";s:55:"/home/usuario/yii2/academico/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:6:"yii.js";}s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:48:"/home/usuario/yii2/academico/web/assets/86cb7c08";s:7:"baseUrl";s:16:"/assets/86cb7c08";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:53:"/home/usuario/yii2/academico/vendor/bower/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:48:"/home/usuario/yii2/academico/web/assets/625228b0";s:7:"baseUrl";s:16:"/assets/625228b0";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:22:"yii\grid\GridViewAsset";a:9:{s:10:"sourcePath";s:55:"/home/usuario/yii2/academico/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:15:"yii.gridView.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:48:"/home/usuario/yii2/academico/web/assets/86cb7c08";s:7:"baseUrl";s:16:"/assets/86cb7c08";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:19:"app\assets\AppAsset";a:9:{s:8:"basePath";s:32:"/home/usuario/yii2/academico/web";s:7:"baseUrl";s:0:"";s:3:"css";a:1:{i:0;s:12:"css/site.css";}s:2:"js";a:0:{}s:7:"depends";a:2:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:10:"sourcePath";N;s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:28:"yii\bootstrap\BootstrapAsset";a:9:{s:10:"sourcePath";s:56:"/home/usuario/yii2/academico/vendor/bower/bootstrap/dist";s:3:"css";a:1:{i:0;s:17:"css/bootstrap.css";}s:8:"basePath";s:48:"/home/usuario/yii2/academico/web/assets/6b6c67ca";s:7:"baseUrl";s:16:"/assets/6b6c67ca";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:34:"yii\bootstrap\BootstrapPluginAsset";a:9:{s:10:"sourcePath";s:56:"/home/usuario/yii2/academico/vendor/bower/bootstrap/dist";s:2:"js";a:1:{i:0;s:15:"js/bootstrap.js";}s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:48:"/home/usuario/yii2/academico/web/assets/6b6c67ca";s:7:"baseUrl";s:16:"/assets/6b6c67ca";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:22:"yii\debug\ToolbarAsset";a:9:{s:10:"sourcePath";s:61:"/home/usuario/yii2/academico/vendor/yiisoft/yii2-debug/assets";s:3:"css";a:1:{i:0;s:11:"toolbar.css";}s:2:"js";a:1:{i:0;s:10:"toolbar.js";}s:8:"basePath";s:48:"/home/usuario/yii2/academico/web/assets/9eb84bca";s:7:"baseUrl";s:16:"/assets/9eb84bca";s:7:"depends";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}s:4:"mail";a:0:{}s:7:"summary";a:9:{s:3:"tag";s:13:"5b0d5c39c3fae";s:3:"url";s:138:"http://localhost:8080/notasalumnoasignatura/snna?NotasalumnoasignaturaSearch%5Bperiodo%5D=109&NotasalumnoasignaturaSearch%5Bcarrera%5D=220";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:9:"127.0.0.1";s:4:"time";i:1527602235;s:10:"statusCode";i:200;s:8:"sqlCount";i:12;s:9:"mailCount";i:0;}}

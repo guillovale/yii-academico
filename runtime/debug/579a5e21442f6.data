@@ -1,0 +1,141 @@
+a:8:{s:6:"config";a:5:{s:10:"phpVersion";s:6:"5.4.16";s:10:"yiiVersion";s:5:"2.0.7";s:11:"application";a:4:{s:3:"yii";s:5:"2.0.7";s:4:"name";s:14:"My Application";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:6:"5.4.16";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;}s:10:"extensions";a:6:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:55:"/var/www/html/academico/vendor/yiisoft/yii2-swiftmailer";}}s:24:"yiisoft/yii2-codeception";a:3:{s:4:"name";s:24:"yiisoft/yii2-codeception";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:16:"@yii/codeception";s:55:"/var/www/html/academico/vendor/yiisoft/yii2-codeception";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:53:"/var/www/html/academico/vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:49:"/var/www/html/academico/vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:47:"/var/www/html/academico/vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:49:"/var/www/html/academico/vendor/yiisoft/yii2-faker";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:302;s:14:"requestHeaders";a:13:{s:4:"host";s:14:"190.152.10.220";s:10:"connection";s:10:"keep-alive";s:14:"content-length";s:3:"233";s:13:"cache-control";s:9:"max-age=0";s:6:"origin";s:21:"http://190.152.10.220";s:25:"upgrade-insecure-requests";s:1:"1";s:10:"user-agent";s:109:"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36";s:12:"content-type";s:33:"application/x-www-form-urlencoded";s:6:"accept";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:7:"referer";s:72:"http://190.152.10.220/academico/web/index.php?r=mallaestudiante%2Fcreate";s:15:"accept-encoding";s:13:"gzip, deflate";s:15:"accept-language";s:14:"es-ES,es;q=0.8";s:6:"cookie";s:400:"_csrf=bcd68b5f2c5377bc6f95c8cee416578e7d421a4a94c0c7eaee6d600bebf1392ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qmiMAu3A9RyE58F2j_T06B0IFUMsFpuO%22%3B%7D; PHPSESSID=ju2jn49pfibl1ddi05r0fg54d4; _identity=8e372391539d20878ff30ca7f0d514577156f3f889449baf0f4549b3771a5a7ba%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%2208002769902%22%2Cnull%2C2592000%5D%22%3B%7D";}s:15:"responseHeaders";a:7:{s:12:"X-Powered-By";s:10:"PHP/5.4.16";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";s:6:"Pragma";s:8:"no-cache";s:8:"Location";s:78:"http://190.152.10.220/academico/web/index.php?r=mallaestudiante%2Fview&id=6125";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";s:10:"Set-Cookie";s:245:"_identity=8e372391539d20878ff30ca7f0d514577156f3f889449baf0f4549b3771a5a7ba%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%2208002769902%22%2Cnull%2C2592000%5D%22%3B%7D; expires=Sat, 27-Aug-2016 19:33:53 GMT; path=/; httponly";}s:5:"route";s:22:"mallaestudiante/create";s:6:"action";s:57:"app\controllers\MallaestudianteController::actionCreate()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:3:{s:12:"Content Type";s:33:"application/x-www-form-urlencoded";s:3:"Raw";s:233:"_csrf=Q25zY3lkSUUyAxouOBF6BHo8CiZMXA93KTEnU08meQwFOz4QPxQ8Cg%3D%3D&MallaEstudiante%5Bcedula%5D=0803716646&MallaEstudiante%5Bcarrera%5D=197&MallaEstudiante%5Banio_habilitacion%5D=2014&MallaEstudiante%5Bfecha%5D=2016-07-28+14%3A33%3A40";s:17:"Decoded to Params";a:2:{s:5:"_csrf";s:56:"Q25zY3lkSUUyAxouOBF6BHo8CiZMXA93KTEnU08meQwFOz4QPxQ8Cg==";s:15:"MallaEstudiante";a:4:{s:6:"cedula";s:10:"0803716646";s:7:"carrera";s:3:"197";s:17:"anio_habilitacion";s:4:"2014";s:5:"fecha";s:19:"2016-07-28 14:33:40";}}}s:6:"SERVER";a:37:{s:9:"UNIQUE_ID";s:27:"V5peIc4QtDhG6DzHBMimiwAAAAA";s:9:"HTTP_HOST";s:14:"190.152.10.220";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:14:"CONTENT_LENGTH";s:3:"233";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:11:"HTTP_ORIGIN";s:21:"http://190.152.10.220";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:15:"HTTP_USER_AGENT";s:109:"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:12:"HTTP_REFERER";s:72:"http://190.152.10.220/academico/web/index.php?r=mallaestudiante%2Fcreate";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"es-ES,es;q=0.8";s:11:"HTTP_COOKIE";s:400:"_csrf=bcd68b5f2c5377bc6f95c8cee416578e7d421a4a94c0c7eaee6d600bebf1392ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qmiMAu3A9RyE58F2j_T06B0IFUMsFpuO%22%3B%7D; PHPSESSID=ju2jn49pfibl1ddi05r0fg54d4; _identity=8e372391539d20878ff30ca7f0d514577156f3f889449baf0f4549b3771a5a7ba%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%2208002769902%22%2Cnull%2C2592000%5D%22%3B%7D";s:4:"PATH";s:49:"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:63:"Apache/2.4.6 (CentOS) PHP/5.4.16 mod_perl/2.0.9dev Perl/v5.16.3";s:11:"SERVER_NAME";s:14:"190.152.10.220";s:11:"SERVER_ADDR";s:14:"190.152.10.220";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:14:"190.152.10.218";s:13:"DOCUMENT_ROOT";s:13:"/var/www/html";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:13:"/var/www/html";s:12:"SERVER_ADMIN";s:9:"webmaster";s:15:"SCRIPT_FILENAME";s:37:"/var/www/html/academico/web/index.php";s:11:"REMOTE_PORT";s:5:"54401";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:26:"r=mallaestudiante%2Fcreate";s:11:"REQUEST_URI";s:51:"/academico/web/index.php?r=mallaestudiante%2Fcreate";s:11:"SCRIPT_NAME";s:24:"/academico/web/index.php";s:8:"PHP_SELF";s:24:"/academico/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1469734433.2449999;s:12:"REQUEST_TIME";i:1469734433;}s:3:"GET";a:1:{s:1:"r";s:22:"mallaestudiante/create";}s:4:"POST";a:2:{s:5:"_csrf";s:56:"Q25zY3lkSUUyAxouOBF6BHo8CiZMXA93KTEnU08meQwFOz4QPxQ8Cg==";s:15:"MallaEstudiante";a:4:{s:6:"cedula";s:10:"0803716646";s:7:"carrera";s:3:"197";s:17:"anio_habilitacion";s:4:"2014";s:5:"fecha";s:19:"2016-07-28 14:33:40";}}s:6:"COOKIE";a:3:{s:5:"_csrf";s:130:"bcd68b5f2c5377bc6f95c8cee416578e7d421a4a94c0c7eaee6d600bebf1392ea:2:{i:0;s:5:"_csrf";i:1;s:32:"qmiMAu3A9RyE58F2j_T06B0IFUMsFpuO";}";s:9:"PHPSESSID";s:26:"ju2jn49pfibl1ddi05r0fg54d4";s:9:"_identity";s:130:"8e372391539d20878ff30ca7f0d514577156f3f889449baf0f4549b3771a5a7ba:2:{i:0;s:9:"_identity";i:1;s:28:"["08002769902",null,2592000]";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:3:{s:7:"__flash";a:0:{}s:4:"__id";s:11:"08002769902";s:3:"url";s:154:"/academico/web/index.php?r=notasalumnoasignatura%2Findex&NotasalumnoasignaturaSearch%5BCIInfPer%5D=0803716646&NotasalumnoasignaturaSearch%5Bcarrera%5D=197";}}s:3:"log";a:1:{s:8:"messages";a:17:{i:0;a:5:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1469734433.270381;i:4;a:0:{}}i:1;a:5:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1469734433.270453;i:4;a:0:{}}i:2;a:5:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1469734433.2784891;i:4;a:0:{}}i:3;a:5:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1469734433.2807;i:4;a:0:{}}i:4;a:5:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1469734433.2813959;i:4;a:0:{}}i:5;a:5:{i:0;s:56:"Pretty URL not enabled. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1469734433.28409;i:4;a:0:{}}i:6;a:5:{i:0;s:41:"Route requested: 'mallaestudiante/create'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1469734433.2841549;i:4;a:0:{}}i:7;a:5:{i:0;s:36:"Route to run: mallaestudiante/create";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1469734433.28708;i:4;a:0:{}}i:8;a:5:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1469734433.2932889;i:4;a:0:{}}i:9;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.317549;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:10;a:5:{i:0;s:59:"Opening DB connection: mysql:host=192.168.0.102;dbname=siad";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1469734433.317713;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:15;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.349839;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:18;a:5:{i:0;s:54:"SELECT * FROM `usuario` WHERE `LoginUsu`='08002769902'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3561611;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:21;a:5:{i:0;s:73:"Running action: app\controllers\MallaestudianteController::actionCreate()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1469734433.364347;i:4;a:0:{}}i:22;a:5:{i:0;s:41:"SHOW FULL COLUMNS FROM `malla_estudiante`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3649559;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:83;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:25;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'malla_estudiante' AND kcu.table_name = 'malla_estudiante'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.367377;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:83;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:28;a:5:{i:0;s:142:"INSERT INTO `malla_estudiante` (`fecha`, `cedula`, `carrera`, `anio_habilitacion`) VALUES ('2016-07-28 14:33:40', '0803716646', '197', '2014')";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1469734433.3743091;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:85;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}}}s:9:"profiling";a:3:{s:6:"memory";i:6340120;s:4:"time";d:0.12899422645568848;s:8:"messages";a:14:{i:11;a:5:{i:0;s:59:"Opening DB connection: mysql:host=192.168.0.102;dbname=siad";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1469734433.317822;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:12;a:5:{i:0;s:59:"Opening DB connection: mysql:host=192.168.0.102;dbname=siad";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1469734433.346354;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:13;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.346514;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:14;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3481791;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:16;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.349987;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:17;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3508949;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:19;a:5:{i:0;s:54:"SELECT * FROM `usuario` WHERE `LoginUsu`='08002769902'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.356339;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:20;a:5:{i:0;s:54:"SELECT * FROM `usuario` WHERE `LoginUsu`='08002769902'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3570869;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:23;a:5:{i:0;s:41:"SHOW FULL COLUMNS FROM `malla_estudiante`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3650701;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:83;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:24;a:5:{i:0;s:41:"SHOW FULL COLUMNS FROM `malla_estudiante`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3666959;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:83;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'malla_estudiante' AND kcu.table_name = 'malla_estudiante'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3674879;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:83;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:27;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'malla_estudiante' AND kcu.table_name = 'malla_estudiante'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3683419;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:83;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:142:"INSERT INTO `malla_estudiante` (`fecha`, `cedula`, `carrera`, `anio_habilitacion`) VALUES ('2016-07-28 14:33:40', '0803716646', '197', '2014')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1469734433.3744221;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:85;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:30;a:5:{i:0;s:142:"INSERT INTO `malla_estudiante` (`fecha`, `cedula`, `carrera`, `anio_habilitacion`) VALUES ('2016-07-28 14:33:40', '0803716646', '197', '2014')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1469734433.375088;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:85;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}}}s:2:"db";a:1:{s:8:"messages";a:12:{i:13;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.346514;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:14;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3481791;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:16;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.349987;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:17;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3508949;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:19;a:5:{i:0;s:54:"SELECT * FROM `usuario` WHERE `LoginUsu`='08002769902'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.356339;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:20;a:5:{i:0;s:54:"SELECT * FROM `usuario` WHERE `LoginUsu`='08002769902'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3570869;i:4;a:1:{i:0;a:5:{s:4:"file";s:42:"/var/www/html/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:23;a:5:{i:0;s:41:"SHOW FULL COLUMNS FROM `malla_estudiante`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3650701;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:83;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:24;a:5:{i:0;s:41:"SHOW FULL COLUMNS FROM `malla_estudiante`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3666959;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:83;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'malla_estudiante' AND kcu.table_name = 'malla_estudiante'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3674879;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:83;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:27;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'malla_estudiante' AND kcu.table_name = 'malla_estudiante'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1469734433.3683419;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:83;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:142:"INSERT INTO `malla_estudiante` (`fecha`, `cedula`, `carrera`, `anio_habilitacion`) VALUES ('2016-07-28 14:33:40', '0803716646', '197', '2014')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1469734433.3744221;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:85;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:30;a:5:{i:0;s:142:"INSERT INTO `malla_estudiante` (`fecha`, `cedula`, `carrera`, `anio_habilitacion`) VALUES ('2016-07-28 14:33:40', '0803716646', '197', '2014')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1469734433.375088;i:4;a:1:{i:0;a:5:{s:4:"file";s:65:"/var/www/html/academico/controllers/MallaestudianteController.php";s:4:"line";i:85;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}}}s:6:"assets";a:0:{}s:4:"mail";a:0:{}s:7:"summary";a:9:{s:3:"tag";s:13:"579a5e21442f6";s:3:"url";s:72:"http://190.152.10.220/academico/web/index.php?r=mallaestudiante%2Fcreate";s:4:"ajax";i:0;s:6:"method";s:4:"POST";s:2:"ip";s:14:"190.152.10.218";s:4:"time";i:1469734433;s:10:"statusCode";i:302;s:8:"sqlCount";i:6;s:9:"mailCount";i:0;}}

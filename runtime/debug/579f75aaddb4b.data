@@ -1,0 +1,211 @@
+a:8:{s:6:"config";a:5:{s:10:"phpVersion";s:6:"5.6.15";s:10:"yiiVersion";s:5:"2.0.7";s:11:"application";a:4:{s:3:"yii";s:5:"2.0.7";s:4:"name";s:14:"My Application";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:6:"5.6.15";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;}s:10:"extensions";a:6:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:63:"/home/usuario/yii-app/academico/vendor/yiisoft/yii2-swiftmailer";}}s:24:"yiisoft/yii2-codeception";a:3:{s:4:"name";s:24:"yiisoft/yii2-codeception";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:16:"@yii/codeception";s:63:"/home/usuario/yii-app/academico/vendor/yiisoft/yii2-codeception";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:61:"/home/usuario/yii-app/academico/vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:57:"/home/usuario/yii-app/academico/vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:55:"/home/usuario/yii-app/academico/vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:57:"/home/usuario/yii-app/academico/vendor/yiisoft/yii2-faker";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:302;s:14:"requestHeaders";a:10:{s:4:"host";s:14:"localhost:8080";s:10:"user-agent";s:76:"Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0";s:6:"accept";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:15:"accept-language";s:35:"es-AR,es;q=0.8,en-US;q=0.5,en;q=0.3";s:15:"accept-encoding";s:13:"gzip, deflate";s:7:"referer";s:53:"http://localhost:8080/equivalencia/create?idAsig=8682";s:6:"cookie";s:254:"csrftoken=UjSPiacz3Dplh2KvECH1mOHWKsqqChG2; PHPSESSID=skc8tfegrcvn49kptab502mq27; _csrf=beac2ab2dbca5b3b48446f62c5bb53c9ce8f5c19e2da467e663453eb3ab2d840a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BqHfjTRH8ysJaS5_8o0woU0C5V-f46MN%22%3B%7D";s:10:"connection";s:10:"keep-alive";s:12:"content-type";s:33:"application/x-www-form-urlencoded";s:14:"content-length";s:3:"217";}s:15:"responseHeaders";a:6:{s:12:"X-Powered-By";s:10:"PHP/5.6.15";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";s:6:"Pragma";s:8:"no-cache";s:8:"Location";s:154:"http://localhost:8080/notasalumnoasignatura/index?NotasalumnoasignaturaSearch%5BCIInfPer%5D=0803008168&NotasalumnoasignaturaSearch%5Bcarrera%5D=054&page=1";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";}s:5:"route";s:19:"equivalencia/create";s:6:"action";s:54:"app\controllers\EquivalenciaController::actionCreate()";s:12:"actionParams";a:1:{i:0;s:4:"8682";}s:11:"requestBody";a:3:{s:12:"Content Type";s:33:"application/x-www-form-urlencoded";s:3:"Raw";s:217:"_csrf=WVNfVDNBU2kbIhcyWRUBIWEqLB5SEmY2YTxvI1wUYypsBXIyB3ceJw%3D%3D&Equivalencia%5Basignatura%5D=8682&Equivalencia%5Bequivalencia%5D=8847&Equivalencia%5Bfecha%5D=2016-08-01+11%3A15%3A35&Equivalencia%5Busuario%5D=cplata";s:17:"Decoded to Params";a:2:{s:5:"_csrf";s:56:"WVNfVDNBU2kbIhcyWRUBIWEqLB5SEmY2YTxvI1wUYypsBXIyB3ceJw==";s:12:"Equivalencia";a:4:{s:10:"asignatura";s:4:"8682";s:12:"equivalencia";s:4:"8847";s:5:"fecha";s:19:"2016-08-01 11:15:35";s:7:"usuario";s:6:"cplata";}}}s:6:"SERVER";a:28:{s:13:"DOCUMENT_ROOT";s:35:"/home/usuario/yii-app/academico/web";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:11:"REMOTE_PORT";s:5:"52176";s:15:"SERVER_SOFTWARE";s:29:"PHP 5.6.15 Development Server";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_PORT";s:4:"8080";s:11:"REQUEST_URI";s:32:"/equivalencia/create?idAsig=8682";s:14:"REQUEST_METHOD";s:4:"POST";s:11:"SCRIPT_NAME";s:10:"/index.php";s:15:"SCRIPT_FILENAME";s:45:"/home/usuario/yii-app/academico/web/index.php";s:9:"PATH_INFO";s:20:"/equivalencia/create";s:8:"PHP_SELF";s:30:"/index.php/equivalencia/create";s:12:"QUERY_STRING";s:11:"idAsig=8682";s:9:"HTTP_HOST";s:14:"localhost:8080";s:15:"HTTP_USER_AGENT";s:76:"Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0";s:11:"HTTP_ACCEPT";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"es-AR,es;q=0.8,en-US;q=0.5,en;q=0.3";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:12:"HTTP_REFERER";s:53:"http://localhost:8080/equivalencia/create?idAsig=8682";s:11:"HTTP_COOKIE";s:254:"csrftoken=UjSPiacz3Dplh2KvECH1mOHWKsqqChG2; PHPSESSID=skc8tfegrcvn49kptab502mq27; _csrf=beac2ab2dbca5b3b48446f62c5bb53c9ce8f5c19e2da467e663453eb3ab2d840a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BqHfjTRH8ysJaS5_8o0woU0C5V-f46MN%22%3B%7D";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:17:"HTTP_CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:14:"CONTENT_LENGTH";s:3:"217";s:19:"HTTP_CONTENT_LENGTH";s:3:"217";s:18:"REQUEST_TIME_FLOAT";d:1470068138.893151;s:12:"REQUEST_TIME";i:1470068138;}s:3:"GET";a:1:{s:6:"idAsig";s:4:"8682";}s:4:"POST";a:2:{s:5:"_csrf";s:56:"WVNfVDNBU2kbIhcyWRUBIWEqLB5SEmY2YTxvI1wUYypsBXIyB3ceJw==";s:12:"Equivalencia";a:4:{s:10:"asignatura";s:4:"8682";s:12:"equivalencia";s:4:"8847";s:5:"fecha";s:19:"2016-08-01 11:15:35";s:7:"usuario";s:6:"cplata";}}s:6:"COOKIE";a:3:{s:9:"csrftoken";s:32:"UjSPiacz3Dplh2KvECH1mOHWKsqqChG2";s:9:"PHPSESSID";s:26:"skc8tfegrcvn49kptab502mq27";s:5:"_csrf";s:130:"beac2ab2dbca5b3b48446f62c5bb53c9ce8f5c19e2da467e663453eb3ab2d840a:2:{i:0;s:5:"_csrf";i:1;s:32:"BqHfjTRH8ysJaS5_8o0woU0C5V-f46MN";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:3:{s:7:"__flash";a:0:{}s:4:"__id";s:6:"cplata";s:3:"url";s:133:"/notasalumnoasignatura/index?NotasalumnoasignaturaSearch%5BCIInfPer%5D=0803008168&NotasalumnoasignaturaSearch%5Bcarrera%5D=054&page=1";}}s:3:"log";a:1:{s:8:"messages";a:21:{i:0;a:5:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1470068138.9012439;i:4;a:0:{}}i:1;a:5:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1470068138.9013319;i:4;a:0:{}}i:2;a:5:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1470068138.90751;i:4;a:0:{}}i:3;a:5:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1470068138.910763;i:4;a:0:{}}i:4;a:5:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1470068138.9111271;i:4;a:0:{}}i:5;a:5:{i:0;s:55:"No matching URL rules. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1470068138.912791;i:4;a:0:{}}i:6;a:5:{i:0;s:38:"Route requested: 'equivalencia/create'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1470068138.9128239;i:4;a:0:{}}i:7;a:5:{i:0;s:33:"Route to run: equivalencia/create";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1470068138.9142499;i:4;a:0:{}}i:8;a:5:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1470068138.9173069;i:4;a:0:{}}i:9;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9280479;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:10;a:5:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=siad";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1470068138.9281371;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:15;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9304039;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:18;a:5:{i:0;s:49:"SELECT * FROM `usuario` WHERE `LoginUsu`='cplata'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9331861;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:21;a:5:{i:0;s:70:"Running action: app\controllers\EquivalenciaController::actionCreate()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1470068138.9357879;i:4;a:0:{}}i:22;a:5:{i:0;s:37:"SHOW FULL COLUMNS FROM `equivalencia`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9360559;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:86;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:25;a:5:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'equivalencia' AND kcu.table_name = 'equivalencia'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9370949;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:86;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:28;a:5:{i:0;s:48:"SELECT * FROM `asignatura` WHERE `IdAsig`='8682'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9410961;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:31;a:5:{i:0;s:35:"SHOW FULL COLUMNS FROM `asignatura`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.941632;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:34;a:5:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'asignatura' AND kcu.table_name = 'asignatura'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.942611;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:37;a:5:{i:0;s:48:"SELECT * FROM `asignatura` WHERE `IdAsig`='8847'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9434171;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:84;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:40;a:5:{i:0;s:134:"INSERT INTO `equivalencia` (`asignatura`, `fecha`, `usuario`, `equivalencia`) VALUES ('8682', '2016-08-01 11:15:35', 'cplata', '8847')";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1470068138.9439261;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}}}s:9:"profiling";a:3:{s:6:"memory";i:6555888;s:4:"time";d:0.091320037841796875;s:8:"messages";a:22:{i:11;a:5:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=siad";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1470068138.928185;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:12;a:5:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=siad";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1470068138.928709;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:13;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9287751;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:14;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9296401;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:16;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.930469;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:17;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9309001;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:19;a:5:{i:0;s:49:"SELECT * FROM `usuario` WHERE `LoginUsu`='cplata'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9332581;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:20;a:5:{i:0;s:49:"SELECT * FROM `usuario` WHERE `LoginUsu`='cplata'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9335999;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:23;a:5:{i:0;s:37:"SHOW FULL COLUMNS FROM `equivalencia`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.936116;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:86;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:24;a:5:{i:0;s:37:"SHOW FULL COLUMNS FROM `equivalencia`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9367771;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:86;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'equivalencia' AND kcu.table_name = 'equivalencia'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.937145;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:86;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:27;a:5:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'equivalencia' AND kcu.table_name = 'equivalencia'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9376309;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:86;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:48:"SELECT * FROM `asignatura` WHERE `IdAsig`='8682'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.941165;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:30;a:5:{i:0;s:48:"SELECT * FROM `asignatura` WHERE `IdAsig`='8682'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.941519;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:32;a:5:{i:0;s:35:"SHOW FULL COLUMNS FROM `asignatura`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9416831;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:33;a:5:{i:0;s:35:"SHOW FULL COLUMNS FROM `asignatura`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.942302;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:35;a:5:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'asignatura' AND kcu.table_name = 'asignatura'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9426661;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:36;a:5:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'asignatura' AND kcu.table_name = 'asignatura'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.94312;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:38;a:5:{i:0;s:48:"SELECT * FROM `asignatura` WHERE `IdAsig`='8847'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9434631;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:84;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:39;a:5:{i:0;s:48:"SELECT * FROM `asignatura` WHERE `IdAsig`='8847'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9437001;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:84;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:41;a:5:{i:0;s:134:"INSERT INTO `equivalencia` (`asignatura`, `fecha`, `usuario`, `equivalencia`) VALUES ('8682', '2016-08-01 11:15:35', 'cplata', '8847')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1470068138.943964;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:42;a:5:{i:0;s:134:"INSERT INTO `equivalencia` (`asignatura`, `fecha`, `usuario`, `equivalencia`) VALUES ('8682', '2016-08-01 11:15:35', 'cplata', '8847')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1470068138.972954;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}}}s:2:"db";a:1:{s:8:"messages";a:20:{i:13;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9287751;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:14;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9296401;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:16;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.930469;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:17;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9309001;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:19;a:5:{i:0;s:49:"SELECT * FROM `usuario` WHERE `LoginUsu`='cplata'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9332581;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:20;a:5:{i:0;s:49:"SELECT * FROM `usuario` WHERE `LoginUsu`='cplata'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9335999;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"/home/usuario/yii-app/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:23;a:5:{i:0;s:37:"SHOW FULL COLUMNS FROM `equivalencia`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.936116;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:86;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:24;a:5:{i:0;s:37:"SHOW FULL COLUMNS FROM `equivalencia`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9367771;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:86;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'equivalencia' AND kcu.table_name = 'equivalencia'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.937145;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:86;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:27;a:5:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'equivalencia' AND kcu.table_name = 'equivalencia'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9376309;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:86;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:48:"SELECT * FROM `asignatura` WHERE `IdAsig`='8682'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.941165;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:30;a:5:{i:0;s:48:"SELECT * FROM `asignatura` WHERE `IdAsig`='8682'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.941519;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:32;a:5:{i:0;s:35:"SHOW FULL COLUMNS FROM `asignatura`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9416831;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:33;a:5:{i:0;s:35:"SHOW FULL COLUMNS FROM `asignatura`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.942302;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:35;a:5:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'asignatura' AND kcu.table_name = 'asignatura'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9426661;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:36;a:5:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'asignatura' AND kcu.table_name = 'asignatura'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.94312;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:68;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:38;a:5:{i:0;s:48:"SELECT * FROM `asignatura` WHERE `IdAsig`='8847'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9434631;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:84;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:39;a:5:{i:0;s:48:"SELECT * FROM `asignatura` WHERE `IdAsig`='8847'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1470068138.9437001;i:4;a:2:{i:0;a:5:{s:4:"file";s:55:"/home/usuario/yii-app/academico/models/Equivalencia.php";s:4:"line";i:84;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:41;a:5:{i:0;s:134:"INSERT INTO `equivalencia` (`asignatura`, `fecha`, `usuario`, `equivalencia`) VALUES ('8682', '2016-08-01 11:15:35', 'cplata', '8847')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1470068138.943964;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:42;a:5:{i:0;s:134:"INSERT INTO `equivalencia` (`asignatura`, `fecha`, `usuario`, `equivalencia`) VALUES ('8682', '2016-08-01 11:15:35', 'cplata', '8847')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1470068138.972954;i:4;a:1:{i:0;a:5:{s:4:"file";s:70:"/home/usuario/yii-app/academico/controllers/EquivalenciaController.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}}}s:6:"assets";a:0:{}s:4:"mail";a:0:{}s:7:"summary";a:9:{s:3:"tag";s:13:"579f75aaddb4b";s:3:"url";s:53:"http://localhost:8080/equivalencia/create?idAsig=8682";s:4:"ajax";i:0;s:6:"method";s:4:"POST";s:2:"ip";s:9:"127.0.0.1";s:4:"time";i:1470068138;s:10:"statusCode";i:302;s:8:"sqlCount";i:10;s:9:"mailCount";i:0;}}
