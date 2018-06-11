@@ -187,14 +187,18 @@ class NotasalumnoasignaturaSearch extends Notasalumnoasignatura
 		$query = Notasalumnoasignatura::find()
 						->select(['detalle_matricula.id', 'detalle_matricula.idfactura', 'NombCarr as carrera',
 								'factura.idper', 'detalle_matricula.idcarr', 'periodolectivo.DescPerLec as periodo',
-								'detalle_matricula.nivel as nivel', 'NombAsig as asignatura',
+								'detalle_matricula.nivel as nivel', 'NombAsig as asignatura', 'notasalumnoasignatura.CIInfPer',
+								'concat(informacionpersonal.ApellInfPer, " ",informacionpersonal.ApellMatInfPer, " "
+								,informacionpersonal.NombInfPer) as nombre',
 								'detalle_matricula.paralelo as paralelo', 'detalle_matricula.idasig',
-								'sum(if(notasalumnoasignatura.aprobada = 1, 1, 0)) as aprobadas', 
-								'sum(if(notasalumnoasignatura.aprobada = 0, 1, 0)) as reprobadas'
+								'if(notasalumnoasignatura.aprobada = 1, "aprobada", "reprobada") as aprobadas'
+								#'(if(notasalumnoasignatura.aprobada = 0, 1, 0)) as reprobadas)'
+								#'sum(if(notasalumnoasignatura.aprobada = 1, 1, 0)) as aprobadas', 
+								#'sum(if(notasalumnoasignatura.aprobada = 0, 1, 0)) as reprobadas'
 							])
 						#->joinWith(['factura'])
 						#->joinWith(['factura.cedula0'])
-						#->joinWith('informacionpersonal')
+						#->joinWith('CIInfPer')
 						->joinWith(['detallematricula'])
 						->joinWith(['detallematricula.factura'])
 						->joinWith(['detallematricula.factura.periodo'])
@@ -202,18 +206,19 @@ class NotasalumnoasignaturaSearch extends Notasalumnoasignatura
 						->joinWith(['detallematricula.idAsig'])
 						#->joinWith(['curso'])
 						#->with( 'notasalumno')
-						#->leftJoin('notasalumnoasignatura', 'notasalumnoasignatura.iddetalle = detalle_matricula.id')
+						->leftJoin('informacionpersonal', 'informacionpersonal.CIInfPer = notasalumnoasignatura.CIInfPer')
 						#->joinWith(['notasalumno'])
 						#->leftJoin('notasalumnoasignatura', 'notasalumnoasignatura.iddetalle=detalle_matricula.id')
 						//->joinWith('matricula.cedula')
 						
 						->where(['detalle_matricula.estado'=>1, 'factura.tipo_documento'=>'MATRICULA'])
 						
-						->groupBy(['factura.idper', 'detalle_matricula.idcarr',
-								'detalle_matricula.idasig','detalle_matricula.paralelo'])
+						#->groupBy(['factura.idper', 'detalle_matricula.idcarr',
+						#		'detalle_matricula.idasig','detalle_matricula.paralelo'])
 						->orderBy(['notasalumnoasignatura.idper'=>SORT_ASC, 'detalle_matricula.idcarr'=>SORT_ASC,
 								'detalle_matricula.nivel'=>SORT_ASC, 'detalle_matricula.paralelo'=>SORT_ASC, 
-								'detalle_matricula.idasig'=>SORT_ASC]);
+								'detalle_matricula.idasig'=>SORT_ASC, 'notasalumnoasignatura.aprobada'=>SORT_DESC,
+								'informacionpersonal.ApellInfPer'=>SORT_ASC, 'informacionpersonal.ApellMatInfPer'=>SORT_ASC]);
 	
 		#echo var_dump($asignatura ,' ', $periodo, ' ', $carrera);exit;
 		$dataProvider = new ActiveDataProvider([

@@ -31,7 +31,7 @@ class ExtensionMatricula extends \yii\db\ActiveRecord
     {
         return [
             [['idper', 'cedula', 'fechain', 'fechafin', 'idcarr', 'memorandum'], 'required'],
-            [['idper'], 'integer'],
+            [['idper', 'exonerado'], 'integer'],
             [['fechain', 'fechafin'], 'safe'],
             [['cedula'], 'string', 'max' => 20],
 		[['usuario'], 'string', 'max' => 20],
@@ -52,7 +52,8 @@ class ExtensionMatricula extends \yii\db\ActiveRecord
             'fechafin' => 'Fecha fin',
             'idcarr' => 'Id Carrera',
 		'usuario' => 'Usuario',
-		'memorandum' => 'Memorandum'
+		'memorandum' => 'Memorandum',
+		'exonerado' => 'Exonerado'
         ];
     }
 

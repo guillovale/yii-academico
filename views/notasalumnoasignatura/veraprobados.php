@@ -27,21 +27,44 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            //'id',
+            
             //'idfactura',
             //'idmatricula',
             //'idasig',
 		'periodo',
 	    'carrera',
+		#'CIInfPer',
+		[
+			'attribute'=>'CIInfPer',
+			#'label'=>'Estado',
+			'format'=>'text',//raw, html
+			'filter'=>false,
+	        ],
+		'nombre',
 		'asignatura',
 		'nivel',
 		'paralelo',
 		
 		//'curso.docente.nombre',
 		//'idcurso',
+		[
+			'attribute'=>'aprobadas',
+			'label'=>'Estado',
+			'format'=>'text',//raw, html
+			'filter'=>false,
+			'contentOptions'=> function($data){	
+				if ($data->aprobadas == 'aprobada'){
+					return ['style'=>'color: black;']; // <-- right here
+				}
+				else
+					return ['style'=>'color: red;'];
+				},
+	        
+	        ],
+
 		
-		'aprobadas',
-		'reprobadas',
+		#'aprobadas',
+		#'reprobadas',
 		
 
             //'cnt',

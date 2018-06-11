@@ -104,7 +104,7 @@ class DetallehorarioController extends Controller
 			//$model->hora_inicio = strtotime($model->hora_inicio);
 			//$model->hora_fin = strtotime($model->hora_fin);
 			$usuario = Yii::$app->user->identity;
-			if ( $usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad' ) {
+			if ( $usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad' || $usuario->idperfil == 'dist' ) {
 				if ($post["DetalleHorario"]["dia"] == 'TODO') {
 					foreach($diaslab as $dia) {
 						$model = new DetalleHorario();
@@ -142,7 +142,7 @@ class DetallehorarioController extends Controller
         $model = $this->findModel($id);
 		$usuario = Yii::$app->user->identity;
         if ($model->load(Yii::$app->request->post())) {
-			if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad') {
+			if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad' || $usuario->idperfil == 'dist' ) {
 				$model->save();
 			}
             return $this->redirect(['view', 'id' => $model->id]);
@@ -162,7 +162,7 @@ class DetallehorarioController extends Controller
     public function actionDelete($id)
     {
 		$usuario = Yii::$app->user->identity;
-		if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad') {
+		if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad' || $usuario->idperfil == 'dist' ) {
         	$this->findModel($id)->delete();
 		}
         return Url::previous('detallehorario');

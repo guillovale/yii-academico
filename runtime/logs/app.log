@@ -37061,3 +37061,2147 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1527602233.8019
     'REQUEST_TIME' => 1527602233
 ]
+2018-05-30 15:19:35 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-05-30 15:19:34 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'id' => ''
+        'cedula' => '085'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695374
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34724'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527693574.7266
+    'REQUEST_TIME' => 1527693574
+]
+2018-05-30 15:19:48 [127.0.0.1][1802251759][5t27cstoulj1d5lak8fe9ohhb2][error][yii\base\ErrorException:2] yii\base\ErrorException: Illegal string offset 'position' in /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php:15205
+Stack trace:
+#0 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(15205): yii\base\ErrorHandler->handleError(2, 'Illegal string ...', '/home/usuario/y...', 15205, Array)
+#1 /home/usuario/yii2/academico/controllers/FacturaController.php(423): TCPDF->write1DBarcode('14400', 'C39', '', '', '', 5, 0.2, '', 'N')
+#2 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(3586): app\controllers\MYPDF->Footer()
+#3 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(3132): TCPDF->setFooter()
+#4 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(2980): TCPDF->endPage()
+#5 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(7552): TCPDF->Close()
+#6 /home/usuario/yii2/academico/controllers/FacturaController.php(310): TCPDF->Output('0850032632.pdf', 'D')
+#7 [internal function]: app\controllers\FacturaController->actionMallapdf('14400')
+#8 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('mallapdf', Array)
+#11 /home/usuario/yii2/academico/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('factura/mallapd...', Array)
+#12 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/usuario/yii2/academico/web/index.php(12): yii\base\Application->run()
+#14 {main}
+2018-05-30 15:19:48 [127.0.0.1][1802251759][5t27cstoulj1d5lak8fe9ohhb2][info][application] $_GET = [
+    'idfactura' => '14400'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695388
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34748'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/mallapdf?idfactura=14400'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/mallapdf'
+    'PHP_SELF' => '/index.php/factura/mallapdf'
+    'QUERY_STRING' => 'idfactura=14400'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527693588.0352
+    'REQUEST_TIME' => 1527693588
+]
+2018-05-30 15:19:54 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-05-30 15:19:54 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'id' => ''
+        'cedula' => '085'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695394
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34750'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527693594.1749
+    'REQUEST_TIME' => 1527693594
+]
+2018-05-30 15:19:57 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 15:19:57 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695397
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34754'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527693597.1313
+    'REQUEST_TIME' => 1527693597
+]
+2018-05-30 15:24:21 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 15:24:21 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+    'idper' => '110'
+    'cedula' => '0850032632'
+    'alumno' => 'ARIAS SALTOS KONY JAYLENE'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695661
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34814'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/update?id=103439'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527693861.4147
+    'REQUEST_TIME' => 1527693861
+]
+2018-05-30 15:24:36 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 15:24:36 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695676
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34840'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527693876.4783
+    'REQUEST_TIME' => 1527693876
+]
+2018-05-30 15:24:38 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-05-30 15:24:38 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'id' => ''
+        'cedula' => '085'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695678
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34844'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527693878.2342
+    'REQUEST_TIME' => 1527693878
+]
+2018-05-30 15:25:12 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 15:25:12 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695712
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34850'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527693912.5737
+    'REQUEST_TIME' => 1527693912
+]
+2018-05-30 15:25:27 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 15:25:27 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+    'idper' => '110'
+    'cedula' => '0850032632'
+    'alumno' => 'ARIAS SALTOS KONY JAYLENE'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695727
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34896'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/update?id=103439'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527693927.7603
+    'REQUEST_TIME' => 1527693927
+]
+2018-05-30 15:25:36 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-05-30 15:25:36 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'cedula' => '0850032632'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695736
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34916'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527693936.2616
+    'REQUEST_TIME' => 1527693936
+]
+2018-05-30 15:26:02 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-05-30 15:26:02 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'cedula' => '0850032632'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695762
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34958'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527693962.3601
+    'REQUEST_TIME' => 1527693962
+]
+2018-05-30 15:26:08 [127.0.0.1][1802251759][5t27cstoulj1d5lak8fe9ohhb2][error][yii\base\ErrorException:2] yii\base\ErrorException: Illegal string offset 'position' in /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php:15205
+Stack trace:
+#0 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(15205): yii\base\ErrorHandler->handleError(2, 'Illegal string ...', '/home/usuario/y...', 15205, Array)
+#1 /home/usuario/yii2/academico/controllers/FacturaController.php(423): TCPDF->write1DBarcode('14400', 'C39', '', '', '', 5, 0.2, '', 'N')
+#2 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(3586): app\controllers\MYPDF->Footer()
+#3 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(3132): TCPDF->setFooter()
+#4 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(2980): TCPDF->endPage()
+#5 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(7552): TCPDF->Close()
+#6 /home/usuario/yii2/academico/controllers/FacturaController.php(310): TCPDF->Output('0850032632.pdf', 'D')
+#7 [internal function]: app\controllers\FacturaController->actionMallapdf('14400')
+#8 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('mallapdf', Array)
+#11 /home/usuario/yii2/academico/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('factura/mallapd...', Array)
+#12 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/usuario/yii2/academico/web/index.php(12): yii\base\Application->run()
+#14 {main}
+2018-05-30 15:26:08 [127.0.0.1][1802251759][5t27cstoulj1d5lak8fe9ohhb2][info][application] $_GET = [
+    'idfactura' => '14400'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695768
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34964'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/mallapdf?idfactura=14400'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/mallapdf'
+    'PHP_SELF' => '/index.php/factura/mallapdf'
+    'QUERY_STRING' => 'idfactura=14400'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527693968.9229
+    'REQUEST_TIME' => 1527693968
+]
+2018-05-30 15:26:11 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-05-30 15:26:11 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'cedula' => '0850032632'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695771
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34966'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527693971.7359
+    'REQUEST_TIME' => 1527693971
+]
+2018-05-30 15:26:38 [127.0.0.1][1802251759][5t27cstoulj1d5lak8fe9ohhb2][error][yii\base\ErrorException:2] yii\base\ErrorException: Illegal string offset 'position' in /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php:15205
+Stack trace:
+#0 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(15205): yii\base\ErrorHandler->handleError(2, 'Illegal string ...', '/home/usuario/y...', 15205, Array)
+#1 /home/usuario/yii2/academico/controllers/FacturaController.php(423): TCPDF->write1DBarcode('10533', 'C39', '', '', '', 5, 0.2, '', 'N')
+#2 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(3586): app\controllers\MYPDF->Footer()
+#3 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(3132): TCPDF->setFooter()
+#4 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(2980): TCPDF->endPage()
+#5 /home/usuario/yii2/academico/vendor/tcpdf/tcpdf.php(7552): TCPDF->Close()
+#6 /home/usuario/yii2/academico/controllers/FacturaController.php(310): TCPDF->Output('0850032632.pdf', 'D')
+#7 [internal function]: app\controllers\FacturaController->actionMallapdf('10533')
+#8 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('mallapdf', Array)
+#11 /home/usuario/yii2/academico/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('factura/mallapd...', Array)
+#12 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/usuario/yii2/academico/web/index.php(12): yii\base\Application->run()
+#14 {main}
+2018-05-30 15:26:38 [127.0.0.1][1802251759][5t27cstoulj1d5lak8fe9ohhb2][info][application] $_GET = [
+    'idfactura' => '10533'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695798
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '34972'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/mallapdf?idfactura=10533'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/mallapdf'
+    'PHP_SELF' => '/index.php/factura/mallapdf'
+    'QUERY_STRING' => 'idfactura=10533'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527693998.8367
+    'REQUEST_TIME' => 1527693998
+]
+2018-05-30 15:27:11 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-05-30 15:27:11 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'cedula' => '0850032632'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695831
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35000'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527694031.4551
+    'REQUEST_TIME' => 1527694031
+]
+2018-05-30 15:27:14 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 15:27:14 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695834
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35004'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527694034.726
+    'REQUEST_TIME' => 1527694034
+]
+2018-05-30 15:27:53 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 15:27:53 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+    'idper' => '110'
+    'cedula' => '0850032632'
+    'alumno' => 'ARIAS SALTOS KONY JAYLENE'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695873
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35044'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/notasdetalle/index?id=103438'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527694073.5103
+    'REQUEST_TIME' => 1527694073
+]
+2018-05-30 15:28:07 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 15:28:07 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+    'idper' => '110'
+    'cedula' => '0850032632'
+    'alumno' => 'ARIAS SALTOS KONY JAYLENE'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527695887
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35088'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/notasdetalle/index?id=103438'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527694087.4936
+    'REQUEST_TIME' => 1527694087
+]
+2018-05-30 15:31:50 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-05-30 15:31:50 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'cedula' => '0850032632'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527696110
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35192'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527694310.9556
+    'REQUEST_TIME' => 1527694310
+]
+2018-05-30 15:32:15 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 15:32:15 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '5t27cstoulj1d5lak8fe9ohhb2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527696135
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35216'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=5t27cstoulj1d5lak8fe9ohhb2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527694335.6486
+    'REQUEST_TIME' => 1527694335
+]
+2018-05-30 16:36:33 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-05-30 16:36:33 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'cedula' => '0850032632'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527699993
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35388'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/site/login'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527698193.7025
+    'REQUEST_TIME' => 1527698193
+]
+2018-05-30 16:36:57 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 16:36:57 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527700017
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35408'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527698217.6327
+    'REQUEST_TIME' => 1527698217
+]
+2018-05-30 16:37:26 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 16:37:26 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+    'idper' => '110'
+    'cedula' => '0850032632'
+    'alumno' => 'ARIAS SALTOS KONY JAYLENE'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527700046
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35454'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/update?id=103683'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527698246.5641
+    'REQUEST_TIME' => 1527698246
+]
+2018-05-30 16:37:29 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-05-30 16:37:29 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'cedula' => '0850032632'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527700049
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35474'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527698249.8859
+    'REQUEST_TIME' => 1527698249
+]
+2018-05-30 16:37:37 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 16:37:37 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527700057
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35494'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527698257.9472
+    'REQUEST_TIME' => 1527698257
+]
+2018-05-30 16:37:56 [127.0.0.1][1802251759][kg6bhb2pg0almbgo2lpkcudtcl][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: emailmarco in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:992
+Stack trace:
+#0 /home/usuario/yii2/academico/controllers/DetallematriculaController.php(992): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/usuario/y...', 992, Array)
+#1 /home/usuario/yii2/academico/controllers/DetallematriculaController.php(330): app\controllers\DetallematriculaController->enviarMail('konyarias2508@g...', 'De acuerdo a lo...')
+#2 [internal function]: app\controllers\DetallematriculaController->actionDelete('103683')
+#3 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('delete', Array)
+#6 /home/usuario/yii2/academico/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('detallematricul...', Array)
+#7 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/usuario/yii2/academico/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2018-05-30 16:37:50 [127.0.0.1][1802251759][kg6bhb2pg0almbgo2lpkcudtcl][info][application] $_GET = [
+    'id' => '103683'
+]
+
+$_POST = [
+    '_csrf' => 'c1ZPLmtKdzYZLwV5WhVHeF4gLl4PLA8HQRobWAQwMVI8MiJXPi4NdQ=='
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527700070
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35516'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/delete?id=103683'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/delete'
+    'PHP_SELF' => '/index.php/detallematricula/delete'
+    'QUERY_STRING' => 'id=103683'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/index?idfactura=14400'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '66'
+    'HTTP_CONTENT_LENGTH' => '66'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527698270.9827
+    'REQUEST_TIME' => 1527698270
+]
+2018-05-30 16:39:57 [127.0.0.1][1802251759][kg6bhb2pg0almbgo2lpkcudtcl][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: The requested page does not exist. in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:1183
+Stack trace:
+#0 /home/usuario/yii2/academico/controllers/DetallematriculaController.php(254): app\controllers\DetallematriculaController->findModel('103683')
+#1 [internal function]: app\controllers\DetallematriculaController->actionDelete('103683')
+#2 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('delete', Array)
+#5 /home/usuario/yii2/academico/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('detallematricul...', Array)
+#6 /home/usuario/yii2/academico/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/usuario/yii2/academico/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2018-05-30 16:39:57 [127.0.0.1][1802251759][kg6bhb2pg0almbgo2lpkcudtcl][info][application] $_GET = [
+    'id' => '103683'
+]
+
+$_POST = [
+    '_csrf' => 'c1ZPLmtKdzYZLwV5WhVHeF4gLl4PLA8HQRobWAQwMVI8MiJXPi4NdQ=='
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527700197
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35524'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/delete?id=103683'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/delete'
+    'PHP_SELF' => '/index.php/detallematricula/delete'
+    'QUERY_STRING' => 'id=103683'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/index?idfactura=14400'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '66'
+    'HTTP_CONTENT_LENGTH' => '66'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'REQUEST_TIME_FLOAT' => 1527698397.4443
+    'REQUEST_TIME' => 1527698397
+]
+2018-05-30 16:40:01 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 16:40:01 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527700201
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35542'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527698401.1432
+    'REQUEST_TIME' => 1527698401
+]
+2018-05-30 16:40:10 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-05-30 16:40:10 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'cedula' => '0850032632'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527700210
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35548'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/index?idfactura=14400'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527698410.1685
+    'REQUEST_TIME' => 1527698410
+]
+2018-05-30 16:40:15 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 16:40:15 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527700215
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35568'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527698415.6997
+    'REQUEST_TIME' => 1527698415
+]
+2018-05-30 16:40:24 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 16:40:24 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+    'idper' => '110'
+    'cedula' => '0850032632'
+    'alumno' => 'ARIAS SALTOS KONY JAYLENE'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527700224
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35614'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/update?id=103443'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527698424.8798
+    'REQUEST_TIME' => 1527698424
+]
+2018-05-30 16:40:28 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-05-30 16:40:28 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'cedula' => '0850032632'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527700228
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35634'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527698428.1772
+    'REQUEST_TIME' => 1527698428
+]
+2018-05-30 16:40:36 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 16:40:36 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527700236
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35654'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527698436.2577
+    'REQUEST_TIME' => 1527698436
+]
+2018-05-30 16:40:50 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 16:40:50 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527700250
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35682'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/detallematricula/index?idfactura=14400'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527698450.2516
+    'REQUEST_TIME' => 1527698450
+]
+2018-05-30 16:45:15 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-05-30 16:45:15 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '14400'
+    'idper' => '110'
+    'cedula' => '0850032632'
+    'alumno' => 'ARIAS SALTOS KONY JAYLENE'
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bcedula%5D=0850032632'
+    '__id' => '1802251759'
+    '__expire' => 1527700515
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35722'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/notasdetalle/index?id=103438'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527698715.694
+    'REQUEST_TIME' => 1527698715
+]
+2018-05-30 17:05:32 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-05-30 17:05:31 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'id' => ''
+        'cedula' => '085'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'kg6bhb2pg0almbgo2lpkcudtcl'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+    '__id' => '1802251759'
+    '__expire' => 1527701731
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '36036'
+    'SERVER_SOFTWARE' => 'PHP 7.1.15-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=085'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index'
+    'HTTP_COOKIE' => '_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527699931.9908
+    'REQUEST_TIME' => 1527699931
+]
+2018-06-01 13:57:02 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-06-01 13:57:01 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'id' => ''
+        'cedula' => '0804237162'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '6432eff75ad7bf044937c06e0ffc7c96c8e7ed368c3123183a0535a06de4ef01a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tB5gSnPSfLaD0VwAvhatVvDvi3nOTnAC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '3h4cg6u66pefi3o2folmpdj2vr'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527863221
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=0804237162'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '43504'
+    'SERVER_SOFTWARE' => 'PHP 7.1.17-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=0804237162'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=0804237162'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index'
+    'HTTP_COOKIE' => '_csrf=6432eff75ad7bf044937c06e0ffc7c96c8e7ed368c3123183a0535a06de4ef01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tB5gSnPSfLaD0VwAvhatVvDvi3nOTnAC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=3h4cg6u66pefi3o2folmpdj2vr'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527861421.332
+    'REQUEST_TIME' => 1527861421
+]
+2018-06-01 13:57:08 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-06-01 13:57:07 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '7081'
+]
+
+$_COOKIE = [
+    '_csrf' => '6432eff75ad7bf044937c06e0ffc7c96c8e7ed368c3123183a0535a06de4ef01a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tB5gSnPSfLaD0VwAvhatVvDvi3nOTnAC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '3h4cg6u66pefi3o2folmpdj2vr'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527863227
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=0804237162'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '43526'
+    'SERVER_SOFTWARE' => 'PHP 7.1.17-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=7081'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=7081'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=0804237162'
+    'HTTP_COOKIE' => '_csrf=6432eff75ad7bf044937c06e0ffc7c96c8e7ed368c3123183a0535a06de4ef01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tB5gSnPSfLaD0VwAvhatVvDvi3nOTnAC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=3h4cg6u66pefi3o2folmpdj2vr'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527861427.6678
+    'REQUEST_TIME' => 1527861427
+]
+2018-06-01 14:04:09 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-06-01 14:04:09 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '7081'
+]
+
+$_COOKIE = [
+    '_csrf' => '6432eff75ad7bf044937c06e0ffc7c96c8e7ed368c3123183a0535a06de4ef01a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tB5gSnPSfLaD0VwAvhatVvDvi3nOTnAC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '3h4cg6u66pefi3o2folmpdj2vr'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527863649
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=0804237162'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '43672'
+    'SERVER_SOFTWARE' => 'PHP 7.1.17-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=7081'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=7081'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=0804237162'
+    'HTTP_COOKIE' => '_csrf=6432eff75ad7bf044937c06e0ffc7c96c8e7ed368c3123183a0535a06de4ef01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tB5gSnPSfLaD0VwAvhatVvDvi3nOTnAC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=3h4cg6u66pefi3o2folmpdj2vr'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527861849.6104
+    'REQUEST_TIME' => 1527861849
+]
+2018-06-01 14:04:24 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-06-01 14:04:24 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '7081'
+]
+
+$_COOKIE = [
+    '_csrf' => '6432eff75ad7bf044937c06e0ffc7c96c8e7ed368c3123183a0535a06de4ef01a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tB5gSnPSfLaD0VwAvhatVvDvi3nOTnAC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => '3h4cg6u66pefi3o2folmpdj2vr'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1802251759'
+    '__expire' => 1527863664
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=0804237162'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '43698'
+    'SERVER_SOFTWARE' => 'PHP 7.1.17-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=7081'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=7081'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=0804237162'
+    'HTTP_COOKIE' => '_csrf=6432eff75ad7bf044937c06e0ffc7c96c8e7ed368c3123183a0535a06de4ef01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tB5gSnPSfLaD0VwAvhatVvDvi3nOTnAC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=3h4cg6u66pefi3o2folmpdj2vr'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527861864.3574
+    'REQUEST_TIME' => 1527861864
+]
+2018-06-01 14:59:30 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/factura/index.php:114
+    in /home/usuario/yii2/academico/views/factura/index.php:142
+    in /home/usuario/yii2/academico/controllers/FacturaController.php:105
+2018-06-01 14:59:30 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'FacturaSearch' => [
+        'id' => ''
+        'cedula' => '0804237162'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '6432eff75ad7bf044937c06e0ffc7c96c8e7ed368c3123183a0535a06de4ef01a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tB5gSnPSfLaD0VwAvhatVvDvi3nOTnAC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'b9j6e860fodp2ncqarbnek70hf'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=0804237162'
+    '__id' => '1802251759'
+    '__expire' => 1527866970
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '43886'
+    'SERVER_SOFTWARE' => 'PHP 7.1.17-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=0804237162'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/factura/index'
+    'PHP_SELF' => '/index.php/factura/index'
+    'QUERY_STRING' => 'FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=0804237162'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index'
+    'HTTP_COOKIE' => '_csrf=6432eff75ad7bf044937c06e0ffc7c96c8e7ed368c3123183a0535a06de4ef01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tB5gSnPSfLaD0VwAvhatVvDvi3nOTnAC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=b9j6e860fodp2ncqarbnek70hf'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527865170.1698
+    'REQUEST_TIME' => 1527865170
+]
+2018-06-01 14:59:32 [127.0.0.1][1802251759][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: /home/usuario/yii2/academico/messages/es_ES/app.php Fallback file does not exist as well: /home/usuario/yii2/academico/messages/es/app.php
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:209
+    in /home/usuario/yii2/academico/views/detallematricula/index.php:251
+    in /home/usuario/yii2/academico/controllers/DetallematriculaController.php:111
+2018-06-01 14:59:32 [127.0.0.1][1802251759][-][info][application] $_GET = [
+    'idfactura' => '7081'
+]
+
+$_COOKIE = [
+    '_csrf' => '6432eff75ad7bf044937c06e0ffc7c96c8e7ed368c3123183a0535a06de4ef01a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tB5gSnPSfLaD0VwAvhatVvDvi3nOTnAC\";}'
+    '_identity' => '643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:\"_identity\";i:1;s:27:\"[\"1802251759\",null,2592000]\";}'
+    'PHPSESSID' => 'b9j6e860fodp2ncqarbnek70hf'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=0804237162'
+    '__id' => '1802251759'
+    '__expire' => 1527866972
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/usuario/yii2/academico/web/'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '43906'
+    'SERVER_SOFTWARE' => 'PHP 7.1.17-0ubuntu0.17.10.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/detallematricula/index?idfactura=7081'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/usuario/yii2/academico/web/index.php'
+    'PATH_INFO' => '/detallematricula/index'
+    'PHP_SELF' => '/index.php/detallematricula/index'
+    'QUERY_STRING' => 'idfactura=7081'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:8080/factura/index?FacturaSearch%5Bid%5D=&FacturaSearch%5Bcedula%5D=0804237162'
+    'HTTP_COOKIE' => '_csrf=6432eff75ad7bf044937c06e0ffc7c96c8e7ed368c3123183a0535a06de4ef01a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tB5gSnPSfLaD0VwAvhatVvDvi3nOTnAC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=b9j6e860fodp2ncqarbnek70hf'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'REQUEST_TIME_FLOAT' => 1527865172.8703
+    'REQUEST_TIME' => 1527865172
+]

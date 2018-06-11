@@ -125,7 +125,11 @@ AppAsset::register($this);
 			array_push($menuItems, ['label' => 'Ingreso', 'url' => ['/ingreso/index']]);
 			#array_push($menuVentanilla, ['label' => 'Gestión matrícula', 'url' => ['/factura/index']]);
 		}
-
+		elseif ($usuario->idperfil == 'dist') {
+			array_push($menuItems, ['label' => 'Distributivo', 'url' => ['/cursoofertado/index']]);
+			array_push($menuItems, ['label' => 'Extensión matrícula', 'url' => ['/extensionmatricula/index']]);
+			#array_push($menuVentanilla, ['label' => 'Gestión matrícula', 'url' => ['/factura/index']]);
+		}
 	}
 	#else
 	#	array_push($menuItems, ['label' => 'Calificaciones', 'url' => ['/notasalumnoasignatura/index']]);

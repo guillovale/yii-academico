@@ -1,0 +1,561 @@
+a:8:{s:6:"config";a:5:{s:10:"phpVersion";s:23:"7.1.15-0ubuntu0.17.10.1";s:10:"yiiVersion";s:5:"2.0.7";s:11:"application";a:4:{s:3:"yii";s:5:"2.0.7";s:4:"name";s:14:"My Application";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:23:"7.1.15-0ubuntu0.17.10.1";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:1;}s:10:"extensions";a:8:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:60:"/home/usuario/yii2/academico/vendor/yiisoft/yii2-swiftmailer";}}s:24:"yiisoft/yii2-codeception";a:3:{s:4:"name";s:24:"yiisoft/yii2-codeception";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:16:"@yii/codeception";s:60:"/home/usuario/yii2/academico/vendor/yiisoft/yii2-codeception";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:58:"/home/usuario/yii2/academico/vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:54:"/home/usuario/yii2/academico/vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:52:"/home/usuario/yii2/academico/vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:54:"/home/usuario/yii2/academico/vendor/yiisoft/yii2-faker";}}s:25:"kartik-v/yii2-krajee-base";a:3:{s:4:"name";s:25:"kartik-v/yii2-krajee-base";s:7:"version";s:7:"1.8.9.0";s:5:"alias";a:1:{s:12:"@kartik/base";s:61:"/home/usuario/yii2/academico/vendor/kartik-v/yii2-krajee-base";}}s:31:"kartik-v/yii2-widget-activeform";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-activeform";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/form";s:67:"/home/usuario/yii2/academico/vendor/kartik-v/yii2-widget-activeform";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:302;s:14:"requestHeaders";a:11:{s:4:"host";s:14:"localhost:8080";s:10:"user-agent";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0";s:6:"accept";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:15:"accept-language";s:14:"en-US,en;q=0.5";s:15:"accept-encoding";s:13:"gzip, deflate";s:7:"referer";s:55:"http://localhost:8080/detallematricula/update?id=103683";s:12:"content-type";s:33:"application/x-www-form-urlencoded";s:14:"content-length";s:3:"133";s:6:"cookie";s:399:"_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl";s:10:"connection";s:10:"keep-alive";s:25:"upgrade-insecure-requests";s:1:"1";}s:15:"responseHeaders";a:7:{s:12:"X-Powered-By";s:27:"PHP/7.1.15-0ubuntu0.17.10.1";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:8:"Location";s:121:"http://localhost:8080/detallematricula/index?idfactura=14400&idper=110&cedula=0850032632&alumno=ARIAS+SALTOS+KONY+JAYLENE";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";s:10:"Set-Cookie";s:261:"_identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; expires=Fri, 29-Jun-2018 16:37:26 GMT; Max-Age=2592000; path=/; HttpOnly";}s:5:"route";s:23:"detallematricula/update";s:6:"action";s:58:"app\controllers\DetallematriculaController::actionUpdate()";s:12:"actionParams";a:1:{i:0;s:6:"103683";}s:11:"requestBody";a:3:{s:12:"Content Type";s:33:"application/x-www-form-urlencoded";s:3:"Raw";s:133:"_csrf=WFJIWmZHUC0yKwINVxhgY3UkKSoCISgcah4cLAk9FkkXNiUjMyMqbg%3D%3D&DetalleMatricula%5Bidcurso%5D=7253&DetalleMatricula%5Bcosto%5D=7.1";s:17:"Decoded to Params";a:2:{s:5:"_csrf";s:56:"WFJIWmZHUC0yKwINVxhgY3UkKSoCISgcah4cLAk9FkkXNiUjMyMqbg==";s:16:"DetalleMatricula";a:2:{s:7:"idcurso";s:4:"7253";s:5:"costo";s:3:"7.1";}}}s:6:"SERVER";a:29:{s:13:"DOCUMENT_ROOT";s:33:"/home/usuario/yii2/academico/web/";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:11:"REMOTE_PORT";s:5:"35452";s:15:"SERVER_SOFTWARE";s:46:"PHP 7.1.15-0ubuntu0.17.10.1 Development Server";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_PORT";s:4:"8080";s:11:"REQUEST_URI";s:34:"/detallematricula/update?id=103683";s:14:"REQUEST_METHOD";s:4:"POST";s:11:"SCRIPT_NAME";s:10:"/index.php";s:15:"SCRIPT_FILENAME";s:42:"/home/usuario/yii2/academico/web/index.php";s:9:"PATH_INFO";s:24:"/detallematricula/update";s:8:"PHP_SELF";s:34:"/index.php/detallematricula/update";s:12:"QUERY_STRING";s:9:"id=103683";s:9:"HTTP_HOST";s:14:"localhost:8080";s:15:"HTTP_USER_AGENT";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0";s:11:"HTTP_ACCEPT";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.5";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:12:"HTTP_REFERER";s:55:"http://localhost:8080/detallematricula/update?id=103683";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:17:"HTTP_CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:14:"CONTENT_LENGTH";s:3:"133";s:19:"HTTP_CONTENT_LENGTH";s:3:"133";s:11:"HTTP_COOKIE";s:399:"_csrf=7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jyJW1_0N-vapdfx12LTvozFdOdmyUdzC%22%3B%7D; _identity=643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A27%3A%22%5B%221802251759%22%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=kg6bhb2pg0almbgo2lpkcudtcl";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:18:"REQUEST_TIME_FLOAT";d:1527698246.441616;s:12:"REQUEST_TIME";i:1527698246;}s:3:"GET";a:1:{s:2:"id";s:6:"103683";}s:4:"POST";a:2:{s:5:"_csrf";s:56:"WFJIWmZHUC0yKwINVxhgY3UkKSoCISgcah4cLAk9FkkXNiUjMyMqbg==";s:16:"DetalleMatricula";a:2:{s:7:"idcurso";s:4:"7253";s:5:"costo";s:3:"7.1";}}s:6:"COOKIE";a:3:{s:5:"_csrf";s:130:"7afa9536f83c74806614eaf686581dac4f4dd2c43174e0c1cb7800ee5fdf52cca:2:{i:0;s:5:"_csrf";i:1;s:32:"jyJW1_0N-vapdfx12LTvozFdOdmyUdzC";}";s:9:"_identity";s:129:"643876d48c4c134d8ea2ca91295c5a714af1125ab87e4b291978a22de80e056ca:2:{i:0;s:9:"_identity";i:1;s:27:"["1802251759",null,2592000]";}";s:9:"PHPSESSID";s:26:"kg6bhb2pg0almbgo2lpkcudtcl";}s:5:"FILES";a:0:{}s:7:"SESSION";a:4:{s:7:"__flash";a:0:{}s:11:"__returnUrl";s:51:"/factura/index?FacturaSearch%5Bcedula%5D=0850032632";s:4:"__id";s:10:"1802251759";s:8:"__expire";i:1527700046;}}s:3:"log";a:1:{s:8:"messages";a:41:{i:0;a:5:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1527698246.442193;i:4;a:0:{}}i:1;a:5:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1527698246.442221;i:4;a:0:{}}i:2;a:5:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1527698246.442839;i:4;a:0:{}}i:3;a:5:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1527698246.443485;i:4;a:0:{}}i:4;a:5:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1527698246.443562;i:4;a:0:{}}i:5;a:5:{i:0;s:59:"Request parsed with URL rule: <controller:\w+>/<action:\w+>";i:1;i:8;i:2;s:29:"yii\web\UrlRule::parseRequest";i:3;d:1527698246.443768;i:4;a:0:{}}i:6;a:5:{i:0;s:42:"Route requested: 'detallematricula/update'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1527698246.443783;i:4;a:0:{}}i:7;a:5:{i:0;s:37:"Route to run: detallematricula/update";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1527698246.444139;i:4;a:0:{}}i:8;a:5:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1527698246.444487;i:4;a:0:{}}i:9;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.444964;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:10;a:5:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=siad";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1527698246.445;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:15;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.447221;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:18;a:5:{i:0;s:53:"SELECT * FROM `usuario` WHERE `LoginUsu`='1802251759'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.448168;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:21;a:5:{i:0;s:74:"Running action: app\controllers\DetallematriculaController::actionUpdate()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1527698246.448907;i:4;a:0:{}}i:22;a:5:{i:0;s:42:"SHOW FULL COLUMNS FROM `detalle_matricula`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.449023;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:25;a:5:{i:0;s:621:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'detalle_matricula' AND kcu.table_name = 'detalle_matricula'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.451346;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:28;a:5:{i:0;s:53:"SELECT * FROM `detalle_matricula` WHERE `id`='103683'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.452944;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:31;a:5:{i:0;s:63:"SELECT * FROM `notas_detalle` WHERE `iddetallematricula`=103683";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.453387;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:156;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:34;a:5:{i:0;s:46:"SELECT * FROM `curso_ofertado` WHERE `id`=7253";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.453609;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:37;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `curso_ofertado`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.453739;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:40;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'curso_ofertado' AND kcu.table_name = 'curso_ofertado'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.454714;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:43;a:5:{i:0;s:40:"SELECT * FROM `factura` WHERE `id`=14400";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.455468;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:46;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `factura`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.455619;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:49;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'factura' AND kcu.table_name = 'factura'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.456713;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:52;a:5:{i:0;s:65:"SELECT * FROM `informacionpersonal` WHERE `CIInfPer`='0850032632'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.457417;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:55;a:5:{i:0;s:44:"SHOW FULL COLUMNS FROM `informacionpersonal`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.457925;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:58;a:5:{i:0;s:625:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'informacionpersonal' AND kcu.table_name = 'informacionpersonal'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.459607;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:61;a:5:{i:0;s:46:"SELECT * FROM `detalle_malla` WHERE `id`=23976";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.460284;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:64;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `detalle_malla`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.460415;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:67;a:5:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'detalle_malla' AND kcu.table_name = 'detalle_malla'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.461163;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:70;a:5:{i:0;s:44:"SELECT * FROM `malla_carrera` WHERE `id`=844";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.461776;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:73;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `malla_carrera`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.461906;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:76;a:5:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'malla_carrera' AND kcu.table_name = 'malla_carrera'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.462731;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:79;a:5:{i:0;s:44:"SELECT * FROM `carrera` WHERE `idCarr`='031'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.463402;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:82;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `carrera`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.463536;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:85;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'carrera' AND kcu.table_name = 'carrera'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.464514;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:88;a:5:{i:0;s:48:"SELECT * FROM `curso_ofertado` WHERE `id`='7253'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.46545;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:203;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:91;a:5:{i:0;s:73:"SELECT * FROM `detalle_matricula` WHERE (`idcurso`=7253) AND (`estado`=1)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.465811;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"/home/usuario/yii2/academico/models/CursoOfertado.php";s:4:"line";i:92;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:205;s:8:"function";s:8:"getCupos";s:5:"class";s:24:"app\models\CursoOfertado";s:4:"type";s:2:"->";}}}i:94;a:5:{i:0;s:78:"UPDATE `detalle_matricula` SET `idcurso`=7253, `costo`='7.1' WHERE `id`=103683";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1527698246.466722;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:216;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:97;a:5:{i:0;s:93:"SELECT SUM(credito*costo) FROM `detalle_matricula` WHERE (`idfactura`=14400) AND (`estado`=1)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.515075;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:221;s:8:"function";s:3:"sum";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}}i:100;a:5:{i:0;s:77:"UPDATE `factura` SET `valor_credito`='21.30', `total`='21.3' WHERE `id`=14400";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1527698246.515796;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:226;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}}}s:9:"profiling";a:3:{s:6:"memory";i:2255272;s:4:"time";d:0.11890196800231934;s:8:"messages";a:62:{i:11;a:5:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=siad";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1527698246.445018;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:12;a:5:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=siad";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1527698246.445503;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:13;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.445539;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:14;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.446767;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:16;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.447268;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:17;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.447906;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:19;a:5:{i:0;s:53:"SELECT * FROM `usuario` WHERE `LoginUsu`='1802251759'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.448226;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:20;a:5:{i:0;s:53:"SELECT * FROM `usuario` WHERE `LoginUsu`='1802251759'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.448378;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:23;a:5:{i:0;s:42:"SHOW FULL COLUMNS FROM `detalle_matricula`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.449057;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:24;a:5:{i:0;s:42:"SHOW FULL COLUMNS FROM `detalle_matricula`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.450818;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:621:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'detalle_matricula' AND kcu.table_name = 'detalle_matricula'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.451433;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:27;a:5:{i:0;s:621:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'detalle_matricula' AND kcu.table_name = 'detalle_matricula'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.452766;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:53:"SELECT * FROM `detalle_matricula` WHERE `id`='103683'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.452978;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:30;a:5:{i:0;s:53:"SELECT * FROM `detalle_matricula` WHERE `id`='103683'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.453114;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:32;a:5:{i:0;s:63:"SELECT * FROM `notas_detalle` WHERE `iddetallematricula`=103683";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.453407;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:156;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:33;a:5:{i:0;s:63:"SELECT * FROM `notas_detalle` WHERE `iddetallematricula`=103683";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.45349;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:156;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:35;a:5:{i:0;s:46:"SELECT * FROM `curso_ofertado` WHERE `id`=7253";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.453625;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:36;a:5:{i:0;s:46:"SELECT * FROM `curso_ofertado` WHERE `id`=7253";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.453705;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:38;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `curso_ofertado`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.453753;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:39;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `curso_ofertado`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.454549;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:41;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'curso_ofertado' AND kcu.table_name = 'curso_ofertado'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.454736;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:42;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'curso_ofertado' AND kcu.table_name = 'curso_ofertado'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.455238;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:44;a:5:{i:0;s:40:"SELECT * FROM `factura` WHERE `id`=14400";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.45549;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:45;a:5:{i:0;s:40:"SELECT * FROM `factura` WHERE `id`=14400";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.455581;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:47;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `factura`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.455634;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:48;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `factura`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.456545;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:50;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'factura' AND kcu.table_name = 'factura'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.456733;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:51;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'factura' AND kcu.table_name = 'factura'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.457195;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:53;a:5:{i:0;s:65:"SELECT * FROM `informacionpersonal` WHERE `CIInfPer`='0850032632'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.457436;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:54;a:5:{i:0;s:65:"SELECT * FROM `informacionpersonal` WHERE `CIInfPer`='0850032632'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.457866;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:56;a:5:{i:0;s:44:"SHOW FULL COLUMNS FROM `informacionpersonal`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.457946;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:57;a:5:{i:0;s:44:"SHOW FULL COLUMNS FROM `informacionpersonal`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.459136;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:59;a:5:{i:0;s:625:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'informacionpersonal' AND kcu.table_name = 'informacionpersonal'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.459629;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:60;a:5:{i:0;s:625:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'informacionpersonal' AND kcu.table_name = 'informacionpersonal'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.460016;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:62;a:5:{i:0;s:46:"SELECT * FROM `detalle_malla` WHERE `id`=23976";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.460303;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:63;a:5:{i:0;s:46:"SELECT * FROM `detalle_malla` WHERE `id`=23976";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.46038;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:65;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `detalle_malla`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.460429;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:66;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `detalle_malla`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.461042;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:68;a:5:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'detalle_malla' AND kcu.table_name = 'detalle_malla'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.461182;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:69;a:5:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'detalle_malla' AND kcu.table_name = 'detalle_malla'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.461599;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:71;a:5:{i:0;s:44:"SELECT * FROM `malla_carrera` WHERE `id`=844";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.461794;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:72;a:5:{i:0;s:44:"SELECT * FROM `malla_carrera` WHERE `id`=844";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.461869;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:74;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `malla_carrera`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.46192;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:75;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `malla_carrera`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.462608;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:77;a:5:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'malla_carrera' AND kcu.table_name = 'malla_carrera'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.462752;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:78;a:5:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'malla_carrera' AND kcu.table_name = 'malla_carrera'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.463206;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:80;a:5:{i:0;s:44:"SELECT * FROM `carrera` WHERE `idCarr`='031'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.463419;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:81;a:5:{i:0;s:44:"SELECT * FROM `carrera` WHERE `idCarr`='031'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.463505;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:83;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `carrera`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.46355;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:84;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `carrera`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.464315;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:86;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'carrera' AND kcu.table_name = 'carrera'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.464531;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:87;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'carrera' AND kcu.table_name = 'carrera'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.464948;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:89;a:5:{i:0;s:48:"SELECT * FROM `curso_ofertado` WHERE `id`='7253'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.465468;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:203;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:90;a:5:{i:0;s:48:"SELECT * FROM `curso_ofertado` WHERE `id`='7253'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.465697;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:203;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:92;a:5:{i:0;s:73:"SELECT * FROM `detalle_matricula` WHERE (`idcurso`=7253) AND (`estado`=1)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.46583;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"/home/usuario/yii2/academico/models/CursoOfertado.php";s:4:"line";i:92;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:205;s:8:"function";s:8:"getCupos";s:5:"class";s:24:"app\models\CursoOfertado";s:4:"type";s:2:"->";}}}i:93;a:5:{i:0;s:73:"SELECT * FROM `detalle_matricula` WHERE (`idcurso`=7253) AND (`estado`=1)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.466263;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"/home/usuario/yii2/academico/models/CursoOfertado.php";s:4:"line";i:92;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:205;s:8:"function";s:8:"getCupos";s:5:"class";s:24:"app\models\CursoOfertado";s:4:"type";s:2:"->";}}}i:95;a:5:{i:0;s:78:"UPDATE `detalle_matricula` SET `idcurso`=7253, `costo`='7.1' WHERE `id`=103683";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1527698246.466741;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:216;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:96;a:5:{i:0;s:78:"UPDATE `detalle_matricula` SET `idcurso`=7253, `costo`='7.1' WHERE `id`=103683";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1527698246.514879;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:216;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:98;a:5:{i:0;s:93:"SELECT SUM(credito*costo) FROM `detalle_matricula` WHERE (`idfactura`=14400) AND (`estado`=1)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.515102;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:221;s:8:"function";s:3:"sum";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}}i:99;a:5:{i:0;s:93:"SELECT SUM(credito*costo) FROM `detalle_matricula` WHERE (`idfactura`=14400) AND (`estado`=1)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.515476;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:221;s:8:"function";s:3:"sum";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}}i:101;a:5:{i:0;s:77:"UPDATE `factura` SET `valor_credito`='21.30', `total`='21.3' WHERE `id`=14400";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1527698246.515818;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:226;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:102;a:5:{i:0;s:77:"UPDATE `factura` SET `valor_credito`='21.30', `total`='21.3' WHERE `id`=14400";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1527698246.559343;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:226;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}}}s:2:"db";a:1:{s:8:"messages";a:60:{i:13;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.445539;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:14;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `usuario`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.446767;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:16;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.447268;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:17;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'usuario' AND kcu.table_name = 'usuario'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.447906;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:19;a:5:{i:0;s:53:"SELECT * FROM `usuario` WHERE `LoginUsu`='1802251759'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.448226;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:20;a:5:{i:0;s:53:"SELECT * FROM `usuario` WHERE `LoginUsu`='1802251759'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.448378;i:4;a:1:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Usuario.php";s:4:"line";i:78;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:23;a:5:{i:0;s:42:"SHOW FULL COLUMNS FROM `detalle_matricula`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.449057;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:24;a:5:{i:0;s:42:"SHOW FULL COLUMNS FROM `detalle_matricula`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.450818;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:621:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'detalle_matricula' AND kcu.table_name = 'detalle_matricula'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.451433;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:27;a:5:{i:0;s:621:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'detalle_matricula' AND kcu.table_name = 'detalle_matricula'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.452766;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:53:"SELECT * FROM `detalle_matricula` WHERE `id`='103683'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.452978;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:30;a:5:{i:0;s:53:"SELECT * FROM `detalle_matricula` WHERE `id`='103683'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.453114;i:4;a:2:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:1180;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:154;s:8:"function";s:9:"findModel";s:5:"class";s:42:"app\controllers\DetallematriculaController";s:4:"type";s:2:"->";}}}i:32;a:5:{i:0;s:63:"SELECT * FROM `notas_detalle` WHERE `iddetallematricula`=103683";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.453407;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:156;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:33;a:5:{i:0;s:63:"SELECT * FROM `notas_detalle` WHERE `iddetallematricula`=103683";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.45349;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:156;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:35;a:5:{i:0;s:46:"SELECT * FROM `curso_ofertado` WHERE `id`=7253";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.453625;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:36;a:5:{i:0;s:46:"SELECT * FROM `curso_ofertado` WHERE `id`=7253";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.453705;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:38;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `curso_ofertado`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.453753;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:39;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `curso_ofertado`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.454549;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:41;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'curso_ofertado' AND kcu.table_name = 'curso_ofertado'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.454736;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:42;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'curso_ofertado' AND kcu.table_name = 'curso_ofertado'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.455238;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:158;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:44;a:5:{i:0;s:40:"SELECT * FROM `factura` WHERE `id`=14400";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.45549;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:45;a:5:{i:0;s:40:"SELECT * FROM `factura` WHERE `id`=14400";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.455581;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:47;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `factura`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.455634;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:48;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `factura`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.456545;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:50;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'factura' AND kcu.table_name = 'factura'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.456733;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:51;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'factura' AND kcu.table_name = 'factura'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.457195;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:159;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:53;a:5:{i:0;s:65:"SELECT * FROM `informacionpersonal` WHERE `CIInfPer`='0850032632'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.457436;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:54;a:5:{i:0;s:65:"SELECT * FROM `informacionpersonal` WHERE `CIInfPer`='0850032632'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.457866;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:56;a:5:{i:0;s:44:"SHOW FULL COLUMNS FROM `informacionpersonal`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.457946;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:57;a:5:{i:0;s:44:"SHOW FULL COLUMNS FROM `informacionpersonal`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.459136;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:59;a:5:{i:0;s:625:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'informacionpersonal' AND kcu.table_name = 'informacionpersonal'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.459629;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:60;a:5:{i:0;s:625:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'informacionpersonal' AND kcu.table_name = 'informacionpersonal'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.460016;i:4;a:2:{i:0;a:5:{s:4:"file";s:47:"/home/usuario/yii2/academico/models/Factura.php";s:4:"line";i:80;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:161;s:8:"function";s:15:"getNombreAlumno";s:5:"class";s:18:"app\models\Factura";s:4:"type";s:2:"->";}}}i:62;a:5:{i:0;s:46:"SELECT * FROM `detalle_malla` WHERE `id`=23976";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.460303;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:63;a:5:{i:0;s:46:"SELECT * FROM `detalle_malla` WHERE `id`=23976";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.46038;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:65;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `detalle_malla`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.460429;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:66;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `detalle_malla`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.461042;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:68;a:5:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'detalle_malla' AND kcu.table_name = 'detalle_malla'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.461182;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:69;a:5:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'detalle_malla' AND kcu.table_name = 'detalle_malla'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.461599;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:71;a:5:{i:0;s:44:"SELECT * FROM `malla_carrera` WHERE `id`=844";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.461794;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:72;a:5:{i:0;s:44:"SELECT * FROM `malla_carrera` WHERE `id`=844";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.461869;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:74;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `malla_carrera`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.46192;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:75;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `malla_carrera`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.462608;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:77;a:5:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'malla_carrera' AND kcu.table_name = 'malla_carrera'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.462752;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:78;a:5:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'malla_carrera' AND kcu.table_name = 'malla_carrera'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.463206;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:162;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:80;a:5:{i:0;s:44:"SELECT * FROM `carrera` WHERE `idCarr`='031'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.463419;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:81;a:5:{i:0;s:44:"SELECT * FROM `carrera` WHERE `idCarr`='031'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.463505;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:83;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `carrera`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.46355;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:84;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `carrera`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.464315;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:86;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'carrera' AND kcu.table_name = 'carrera'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.464531;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:87;a:5:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'carrera' AND kcu.table_name = 'carrera'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.464948;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:163;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:89;a:5:{i:0;s:48:"SELECT * FROM `curso_ofertado` WHERE `id`='7253'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.465468;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:203;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:90;a:5:{i:0;s:48:"SELECT * FROM `curso_ofertado` WHERE `id`='7253'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.465697;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:203;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:92;a:5:{i:0;s:73:"SELECT * FROM `detalle_matricula` WHERE (`idcurso`=7253) AND (`estado`=1)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.46583;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"/home/usuario/yii2/academico/models/CursoOfertado.php";s:4:"line";i:92;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:205;s:8:"function";s:8:"getCupos";s:5:"class";s:24:"app\models\CursoOfertado";s:4:"type";s:2:"->";}}}i:93;a:5:{i:0;s:73:"SELECT * FROM `detalle_matricula` WHERE (`idcurso`=7253) AND (`estado`=1)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.466263;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"/home/usuario/yii2/academico/models/CursoOfertado.php";s:4:"line";i:92;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:205;s:8:"function";s:8:"getCupos";s:5:"class";s:24:"app\models\CursoOfertado";s:4:"type";s:2:"->";}}}i:95;a:5:{i:0;s:78:"UPDATE `detalle_matricula` SET `idcurso`=7253, `costo`='7.1' WHERE `id`=103683";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1527698246.466741;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:216;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:96;a:5:{i:0;s:78:"UPDATE `detalle_matricula` SET `idcurso`=7253, `costo`='7.1' WHERE `id`=103683";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1527698246.514879;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:216;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:98;a:5:{i:0;s:93:"SELECT SUM(credito*costo) FROM `detalle_matricula` WHERE (`idfactura`=14400) AND (`estado`=1)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.515102;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:221;s:8:"function";s:3:"sum";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}}i:99;a:5:{i:0;s:93:"SELECT SUM(credito*costo) FROM `detalle_matricula` WHERE (`idfactura`=14400) AND (`estado`=1)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1527698246.515476;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:221;s:8:"function";s:3:"sum";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}}i:101;a:5:{i:0;s:77:"UPDATE `factura` SET `valor_credito`='21.30', `total`='21.3' WHERE `id`=14400";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1527698246.515818;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:226;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}i:102;a:5:{i:0;s:77:"UPDATE `factura` SET `valor_credito`='21.30', `total`='21.3' WHERE `id`=14400";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1527698246.559343;i:4;a:1:{i:0;a:5:{s:4:"file";s:71:"/home/usuario/yii2/academico/controllers/DetallematriculaController.php";s:4:"line";i:226;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}}}}s:6:"assets";a:0:{}s:4:"mail";a:0:{}s:7:"summary";a:9:{s:3:"tag";s:13:"5b0ed3466c25b";s:3:"url";s:55:"http://localhost:8080/detallematricula/update?id=103683";s:4:"ajax";i:0;s:6:"method";s:4:"POST";s:2:"ip";s:9:"127.0.0.1";s:4:"time";i:1527698246;s:10:"statusCode";i:302;s:8:"sqlCount";i:30;s:9:"mailCount";i:0;}}

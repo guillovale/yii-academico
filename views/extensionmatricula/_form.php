@@ -40,6 +40,8 @@ $model->fechafin = $datef;
 
 	<?= $form->field($model, 'memorandum')->textInput() ?>
 
+	<?= $form->field($model, 'exonerado')->checkBox(['uncheck' => 0, 'checked' => 1]) ?>
+
 	<?= $form->field($model, 'usuario')->hiddenInput()->label(false) ?>
 
     <div class="form-group">

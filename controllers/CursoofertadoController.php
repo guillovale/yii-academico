@@ -101,7 +101,7 @@ class CursoofertadoController extends Controller
 		$usuario = Yii::$app->user->identity;
 
         if ( $model->load(Yii::$app->request->post()) ) {
-			if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad') {
+			if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad' || $usuario->idperfil == 'dist') {
 				//echo var_dump($usuario->idperfil); exit;
 				$model->save();
 			}
@@ -128,7 +128,7 @@ class CursoofertadoController extends Controller
 					->all(), 'paralelo', 'paralelo');
 		$this->view->params['paralelos'] = $paralelos;
         if ($model->load(Yii::$app->request->post()) ) {
-			if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad') {
+			if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad' || $usuario->idperfil == 'dist' ) {
 				#echo var_dump($model->fecha_fin); exit;
 				$model->save();
 			}
@@ -149,7 +149,7 @@ class CursoofertadoController extends Controller
     public function actionDelete($id)
     {
 		$usuario = Yii::$app->user->identity;
-		if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad') {
+		if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad' || $usuario->idperfil == 'dist' ) {
 			$this->findModel($id)->delete();
 		}
 		return $this->redirect(['index']);
@@ -171,7 +171,7 @@ class CursoofertadoController extends Controller
 		$usuario = Yii::$app->user->identity;
 		$hoy = date("Y-m-d");
 		$periodo = Periodolectivo::find()->where(['StatusPerLec'=>1])->one();
-		if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad') {		
+		if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad' || $usuario->idperfil == 'dist' ) {		
 			if (isset(Yii::$app->user->identity->idcarr)) {
 				$carreras_user = explode("'", Yii::$app->user->identity->idcarr);
 				$paralelos = ArrayHelper::map(Paralelo::find()

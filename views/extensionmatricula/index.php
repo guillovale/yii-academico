@@ -18,7 +18,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-		<?php if (Yii::$app->user->identity->idperfil == 'diracad' || Yii::$app->user->identity->idperfil == 'sa') {
+		<?php if (Yii::$app->user->identity->idperfil == 'diracad' || Yii::$app->user->identity->idperfil == 'sa' 
+					|| Yii::$app->user->identity->idperfil == 'dist' ) {
         		echo Html::a('Crear extensión matrícula', ['create'], ['class' => 'btn btn-success']) ;
 			}
 		?>
@@ -67,6 +68,14 @@ $this->params['breadcrumbs'][] = $this->title;
 			//'footer' => $total,
 		],
 		['attribute'=>'memorandum',
+			//'label'=>'Carrera',
+			'format'=>'raw',//raw, html
+			//'options' => ['style' => 'color:#0000FF'],
+			//'footer' => $total,
+			'filter'=>false,
+			'enableSorting' => false,
+		],
+		['attribute'=>'exonerado',
 			//'label'=>'Carrera',
 			'format'=>'raw',//raw, html
 			//'options' => ['style' => 'color:#0000FF'],

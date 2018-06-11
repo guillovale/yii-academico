@@ -285,9 +285,14 @@ class DetallematriculaController extends Controller
 						//echo var_dump($total); exit;
 						   // return $this->redirect(Yii::$app->request->referrer);
 						if ($total >= 0) {
-							#$model->factura->valor_credito = $total;
-							#$model->factura->total = $model->factura->valor_matricula + $model->factura->valor_otro + $total;
-							#$model->factura->save();
+							$factura = Factura::find()
+										->where(['id'=> $idfactura])
+										->one();
+							if ($factura) {
+								$factura->valor_credito = $total;
+								$factura->total = $factura->valor_matricula + $factura->valor_otro + $total;
+								$factura->save();
+							}
 						}
 
 						$hoyhora = date("Y-m-d H:i:s");
@@ -981,13 +986,13 @@ class DetallematriculaController extends Controller
 				->setTextBody($texto)
 				->send();
 
-		$message = Yii::$app->mailer->compose();
-		$message->setFrom(Yii::$app->params['adminEmail'])
-				->setTo($emaildamarys)
-				->setCc($emailmarco)
-				->setSubject('Eliminación de nota')
-				->setTextBody($texto)
-				->send();
+		#$message = Yii::$app->mailer->compose();
+		#$message->setFrom(Yii::$app->params['adminEmail'])
+		#		->setTo($emaildamarys)
+		#		->setCc($emailmarco)
+		#		->setSubject('Eliminación de nota')
+		#		->setTextBody($texto)
+		#		->send();
 			
 	}
 

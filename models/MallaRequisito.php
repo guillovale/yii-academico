@@ -14,11 +14,11 @@ use Yii;
  */
 class MallaRequisito extends \yii\db\ActiveRecord
 {
-	#public $carrera;
-	#public $malla;
-	#public $nivel;
-	#public $nivel_prerequisito;
-	# public $idasig;
+	public $carrera;
+	public $malla;
+	public $nivel;
+	public $nivel_prerequisito;
+	public $idasig;
     /**
      * @inheritdoc
      */

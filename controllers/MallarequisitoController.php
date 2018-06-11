@@ -79,7 +79,7 @@ class MallarequisitoController extends Controller
     {
 
 		$usuario = Yii::$app->user->identity;
-		if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad') {		
+		if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad' || $usuario->idperfil == 'atics') {		
 			$carreras_user = explode("'", Yii::$app->user->identity->idcarr);
 			$this->view->params['carreras'] = [];
 				
@@ -125,7 +125,7 @@ class MallarequisitoController extends Controller
     public function actionUpdate($id)
     {
 		$usuario = Yii::$app->user->identity;
-		if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad') {	
+		if ($usuario->idperfil == 'sa' || $usuario->idperfil == 'diracad'  || $usuario->idperfil == 'atics' ) {	
 			$model = $this->findModel($id);	
 			$carreras_user = explode("'", Yii::$app->user->identity->idcarr);
 			$this->view->params['carreras'] = [];

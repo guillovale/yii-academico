@@ -78,21 +78,21 @@ class ExtensionmatriculaController extends Controller
     {
 		$usuario = Yii::$app->user->identity;
 		$carreras = [];
-		if ($usuario->idperfil == 'diracad' || $usuario->idperfil == 'sa'){
+		if ($usuario->idperfil == 'diracad' || $usuario->idperfil == 'sa' || $usuario->idperfil == 'dist' ){
 			$model = new ExtensionMatricula();
 			$carreras_user = explode("'", Yii::$app->user->identity->idcarr);
 			$periodo = Periodolectivo::find()->where(['StatusPerLec'=>1])->one();
-			if (in_array('%', $carreras_user)) {
+			#if (in_array('%', $carreras_user)) {
 				$carreras = ArrayHelper::map(Carrera::find()->where(['StatusCarr' => 1])
 									->orderBy(['nombcarr'=>SORT_ASC])
 									->all(), 'idCarr', 'NombCarr');
-			}
+			#}
 		
-			else {
-				$carreras = ArrayHelper::map(Carrera::find()->where(['in', 'idcarr', $carreras_user])
-													->orderBy(['nombcarr'=>SORT_DESC])
-													->all(), 'idCarr', 'NombCarr');
-			}
+			#else {
+			#	$carreras = ArrayHelper::map(Carrera::find()->where(['in', 'idcarr', $carreras_user])
+			#										->orderBy(['nombcarr'=>SORT_DESC])
+			#										->all(), 'idCarr', 'NombCarr');
+			#}
 			$this->view->params['carreras'] = $carreras;
 			$this->view->params['idperiodo'] = $periodo?$periodo->idper:'';
 			$this->view->params['usuario'] = $usuario?$usuario->LoginUsu:'';
@@ -124,22 +124,22 @@ class ExtensionmatriculaController extends Controller
 		$usuario = Yii::$app->user->identity;
 		$carreras = [];
 
-		if ($usuario->idperfil == 'diracad' || $usuario->idperfil == 'centros'){
+		if ($usuario->idperfil == 'diracad' || $usuario->idperfil == 'sa' || $usuario->idperfil == 'dist' ){
 
 			$model = $this->findModel($id);
 			$carreras_user = explode("'", Yii::$app->user->identity->idcarr);
 			$periodo = Periodolectivo::find()->where(['StatusPerLec'=>1])->one();
-			if (in_array('%', $carreras_user)) {
+			#if (in_array('%', $carreras_user)) {
 				$carreras = ArrayHelper::map(Carrera::find()->where(['StatusCarr' => 1])
 									->orderBy(['nombcarr'=>SORT_ASC])
 									->all(), 'idCarr', 'NombCarr');
-			}
+			#}
 		
-			else {
-				$carreras = ArrayHelper::map(Carrera::find()->where(['in', 'idcarr', $carreras_user])
-													->orderBy(['nombcarr'=>SORT_DESC])
-													->all(), 'idCarr', 'NombCarr');
-			}
+			#else {
+			#	$carreras = ArrayHelper::map(Carrera::find()->where(['in', 'idcarr', $carreras_user])
+			#										->orderBy(['nombcarr'=>SORT_DESC])
+			#										->all(), 'idCarr', 'NombCarr');
+			#}
 			$this->view->params['carreras'] = $carreras;
 			$this->view->params['idperiodo'] = $periodo?$periodo->idper:'';
 			$this->view->params['usuario'] = $usuario?$usuario->LoginUsu:'';
@@ -167,7 +167,7 @@ class ExtensionmatriculaController extends Controller
      */
     public function actionDelete($id)
     {
-		if (Yii::$app->user->identity->idperfil == 'diracad' || Yii::$app->user->identity->idperfil == 'centros'){
+		if (Yii::$app->user->identity->idperfil == 'diracad' || Yii::$app->user->identity->idperfil == 'sa'){
 		    //$this->findModel($id)->delete();
 		}
 		return $this->redirect(['index']);
