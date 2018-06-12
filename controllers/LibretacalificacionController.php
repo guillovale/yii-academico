@@ -579,6 +579,11 @@ class LibretacalificacionController extends Controller
 	public function enviarMail($cedulad, $cedula, $texto)
 	{
 		$emailtis = 'tics@utelvt.edu.ec';
+		$emailacademico1 = 'vicedama@utelvt.edu.ec';
+		$emailacademico = 'viceacademico@utelvt.edu.ec';
+		$emaildocente = 'tics@utelvt.edu.ec';
+		$emailalumno = 'tics@utelvt.edu.ec';
+
 		$docente = InformacionpersonalD::find()
 												->where(['CIInfPer'=> $cedulad])
 												->one();
@@ -593,17 +598,38 @@ class LibretacalificacionController extends Controller
 		$message = Yii::$app->mailer->compose();
 		$message->setFrom(Yii::$app->params['adminEmail'])
 				->setTo($emaildocente)
-				->setCc($emailalumno)
 				->setSubject('Modificación de nota')
 				->setTextBody($texto)
 				->send();
 
 		$message = Yii::$app->mailer->compose();
 		$message->setFrom(Yii::$app->params['adminEmail'])
+				->setTo($emailalumno)
+				->setSubject('Modificación de nota')
+				->setTextBody($texto)
+				->send();	
+
+		$message = Yii::$app->mailer->compose();
+		$message->setFrom(Yii::$app->params['adminEmail'])
 				->setTo($emailtis)
 				->setSubject('Modificación de nota')
 				->setTextBody($texto)
-				->send();		
+				->send();	
+
+		$message = Yii::$app->mailer->compose();
+		$message->setFrom(Yii::$app->params['adminEmail'])
+				->setTo($emailacademico)
+				->setSubject('Modificación de nota')
+				->setTextBody($texto)
+				->send();
+
+		$message = Yii::$app->mailer->compose();
+		$message->setFrom(Yii::$app->params['adminEmail'])
+				->setTo($emailacademico1)
+				->setSubject('Modificación de nota')
+				->setTextBody($texto)
+				->send();
+	
 	}
 
 	public function getNotas($idmatricula)

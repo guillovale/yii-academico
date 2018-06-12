@@ -152,7 +152,7 @@ class NotasdetalleController extends Controller
 							'Cédula: '. $cedula . ' Asignatura: ' .$asignatura . ' hemisemestre: '. 
 							$hemi. ' componente: '.	$comp. ' nota: '.$model->nota;
 				try {
-					#$this->enviarMail($cedulad, $cedula, $texto);
+					$this->enviarMail($cedulad, $cedula, $texto);
 				}catch (Exception $e) {
 					echo 'Excepción capturada: ',  $e->getMessage(), "\n";
 				}
@@ -191,8 +191,12 @@ class NotasdetalleController extends Controller
 	{
 		$emailtis = 'tics@utelvt.edu.ec';
 		$emailacademico = 'viceacademico@utelvt.edu.ec';
+		$emailacademico1 = 'vicedama@utelvt.edu.ec';
 		$emaildamarys = 'damarys.garcia@utelvt.edu.ec';
 		$emailmarco = 'marco.parreno@utelvt.edu.ec';
+		$emaildocente = 'tics@utelvt.edu.ec';
+		$emailalumno = 'tics@utelvt.edu.ec';
+
 		$docente = InformacionpersonalD::find()
 												->where(['CIInfPer'=> $cedulad])
 												->one();
@@ -207,10 +211,17 @@ class NotasdetalleController extends Controller
 		$message = Yii::$app->mailer->compose();
 		$message->setFrom(Yii::$app->params['adminEmail'])
 				->setTo($emaildocente)
-				->setCc($emailalumno)
 				->setSubject('Modificación de nota')
 				->setTextBody($texto)
 				->send();
+
+		$message = Yii::$app->mailer->compose();
+		$message->setFrom(Yii::$app->params['adminEmail'])
+				->setTo($emailalumno)
+				->setSubject('Modificación de nota')
+				->setTextBody($texto)
+				->send();
+
 	
 		$message = Yii::$app->mailer->compose();
 		$message->setFrom(Yii::$app->params['adminEmail'])
@@ -225,10 +236,18 @@ class NotasdetalleController extends Controller
 				->setSubject('Modificación de nota')
 				->setTextBody($texto)
 				->send();
+
+		$message = Yii::$app->mailer->compose();
+		$message->setFrom(Yii::$app->params['adminEmail'])
+				->setTo($emailacademico1)
+				->setSubject('Modificación de nota')
+				->setTextBody($texto)
+				->send();
+
+
 		$message = Yii::$app->mailer->compose();
 		$message->setFrom(Yii::$app->params['adminEmail'])
 				->setTo($emaildamarys)
-				->setCc($emailmarco)
 				->setSubject('Modificación de nota')
 				->setTextBody($texto)
 				->send();

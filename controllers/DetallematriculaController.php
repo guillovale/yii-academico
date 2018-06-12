@@ -959,6 +959,7 @@ class DetallematriculaController extends Controller
 		$emaildamarys = 'damarys.garcia@utelvt.edu.ec';
 		$emailtics = 'tics@utelvt.edu.ec';
 		$emailacademico = 'viceacademico@utelvt.edu.ec';
+		$emailacademico1 = 'vicedama@utelvt.edu.ec';
 
 		if ($email === NULL) {
 			$email = $emailtics;
@@ -982,6 +983,13 @@ class DetallematriculaController extends Controller
 		$message = Yii::$app->mailer->compose();
 		$message->setFrom(Yii::$app->params['adminEmail'])
 				->setTo($emailacademico)
+				->setSubject('Eliminación de asignatura')
+				->setTextBody($texto)
+				->send();
+
+		$message = Yii::$app->mailer->compose();
+		$message->setFrom(Yii::$app->params['adminEmail'])
+				->setTo($emailacademico1)
 				->setSubject('Eliminación de asignatura')
 				->setTextBody($texto)
 				->send();
